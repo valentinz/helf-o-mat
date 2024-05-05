@@ -8,7 +8,7 @@ server:
     - text/xml
     - text/plain
   servlet:
-    context-path: /helf-o-mat
+    context-path: /
 
 elasticsearch:
   index: helfomat
