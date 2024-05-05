@@ -28,7 +28,7 @@ export class ConfirmEmailComponent {
                 mergeMap(contactRequestId => this.contactService.getContactRequest({value: contactRequestId}))
             )
             .subscribe(contactRequest => {
-                this.router.navigate([`/volunteer/organization/${contactRequest.organizationUrl}`]);
+                this.router.navigate([`/helf-o-mat/volunteer/organization/${contactRequest.organizationUrl}`]);
             });
 
         combineLatest([

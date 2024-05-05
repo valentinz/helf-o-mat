@@ -17,7 +17,7 @@
         <tbody *ngIf="approvals | async; let approvals">
         <tr *ngFor="let approval of approvals">
             <td *ngIf="!approval.organizationUrl">{{approval.organizationName}}</td>
-            <td *ngIf="approval.organizationUrl"><a [routerLink]="'/volunteer/organization/' + approval.organizationUrl">{{approval.organizationName}}</a></td>
+            <td *ngIf="approval.organizationUrl"><a [routerLink]="'/helf-o-mat/volunteer/organization/' + approval.organizationUrl">{{approval.organizationName}}</a></td>
             <td>{{approval.author}}</td>
             <td>{{approval.date | date: ('date.format' | translate)}}</td>
             <td>{{approval.sources}}</td>
@@ -32,7 +32,7 @@
             <td colspan="5">{{ 'manage.organization.approval.historyHeadline' | translate }}</td>
         </tr>
         <tr *ngFor="let approval of approvalHistory">
-            <td><a [routerLink]="'/volunteer/organization/' + approval.organizationUrl">{{approval.organizationName}}</a></td>
+            <td><a [routerLink]="'/helf-o-mat/volunteer/organization/' + approval.organizationUrl">{{approval.organizationName}}</a></td>
             <td>{{approval.author}} / {{approval.approvedBy}}</td>
             <td>{{approval.date | date: ('date.format' | translate)}}</td>
             <td>{{approval.sources}}</td>

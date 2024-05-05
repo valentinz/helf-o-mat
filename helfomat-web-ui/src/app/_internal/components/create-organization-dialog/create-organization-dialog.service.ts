@@ -23,7 +23,7 @@ export class CreateOrganizationDialogService {
                 });
                 modalRef.componentInstance.organizationTypes = organizationTypes;
                 modalRef.result.then(organizationType => {
-                    this.router.navigate([`/volunteer/organization/${organizationType}/create`]);
+                    this.router.navigate([`/helf-o-mat/volunteer/organization/${organizationType}/create`]);
                 });
             });
 

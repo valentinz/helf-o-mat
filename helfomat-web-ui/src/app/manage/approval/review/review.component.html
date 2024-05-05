@@ -1,7 +1,7 @@
 <div *ngIf="approval | async; let approval">
     <nav class="navbar sticky-top navbar-dark bg-lightblue">
         <span class="navbar-brand">
-            <a [routerLink]="'/volunteer/organization/' + approval.organizationUrl">{{approval.organizationName}}</a>
+            <a [routerLink]="'/helf-o-mat/volunteer/organization/' + approval.organizationUrl">{{approval.organizationName}}</a>
         </span>
         <div class="btn-group" *ngIf="!approval.reviewed">
             <button class="btn btn-danger" type="button" (click)="decline(approval)">{{'manage.organization.approval.review.reject' | translate}}</button>

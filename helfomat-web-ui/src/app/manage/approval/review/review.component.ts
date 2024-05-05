@@ -100,7 +100,7 @@ export class ReviewComponent {
                     this.router.navigate([`/admin/approval/review/${this.nextApproval.approvalId.value}`]);
                     return;
                 }
-                this.router.navigate(["/admin/approval"])
+                this.router.navigate(["/helf-o-mat/admin/approval"])
             });
     }
 

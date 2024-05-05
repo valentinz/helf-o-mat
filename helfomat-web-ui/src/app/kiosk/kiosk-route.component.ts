@@ -39,7 +39,7 @@ export class KioskRouteComponent {
                     organizationType = '';
                 }
 
-                this.router.navigate(['/volunteer/result', {
+                this.router.navigate(['/helf-o-mat/volunteer/result', {
                     answers: JSON.stringify(answers),
                     position: position,
                     mapSize: 'normal',

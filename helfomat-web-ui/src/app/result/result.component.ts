@@ -8,7 +8,9 @@ import {animate, state, style, transition, trigger} from '@angular/animations';
 import {environment} from '../../environments/environment';
 import {GeoPoint} from '../../_internal/geopoint';
 import {debounceTime, distinctUntilChanged, filter, first, flatMap, map} from "rxjs/operators";
-import {CreateOrganizationDialogService} from "../_internal/components/create-organization-dialog/create-organization-dialog.service";
+import {
+    CreateOrganizationDialogService
+} from "../_internal/components/create-organization-dialog/create-organization-dialog.service";
 import {QrCodeService, QuestionAnswers} from "../_internal/qr-code.service";
 
 @Component({
@@ -154,7 +156,7 @@ export class ResultComponent implements OnInit {
             this._organizationType$.asObservable()
         ])
             .subscribe(([userAnswers, position, distance, boundingBox, zoom, organizationType]: [UserAnswer[], GeoPoint, number, BoundingBox, number, string]) => {
-                this.router.navigate(['/volunteer/result', {
+                this.router.navigate(['/helf-o-mat/volunteer/result', {
                     answers: UrlParamBuilder.buildAnswersFromUserAnswer(userAnswers),
                     position: UrlParamBuilder.buildGeoPoint(position),
                     distance: distance,
@@ -219,7 +221,7 @@ export class ResultComponent implements OnInit {
                 if (this.explainScore) {
                     extras.fragment = 'compare';
                 }
-                this.router.navigate(['/volunteer/organization/' + organization.urlName, {
+                this.router.navigate(['/helf-o-mat/volunteer/organization/' + organization.urlName, {
                     answers: answers,
                     position: UrlParamBuilder.buildGeoPoint(position),
                     zoom: zoom,

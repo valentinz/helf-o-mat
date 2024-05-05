@@ -15,7 +15,11 @@ import {BehaviorSubject, Observable, Subject} from "rxjs";
 import {CdkDragDrop, moveItemInArray} from '@angular/cdk/drag-drop';
 import {PageScrollInstance, PageScrollService} from "ngx-page-scroll-core";
 import {DOCUMENT} from "@angular/common";
-import {GroupTemplate, OrganizationTemplate, OrganizationTemplateService} from "../../_internal/resources/organization-template.service";
+import {
+    GroupTemplate,
+    OrganizationTemplate,
+    OrganizationTemplateService
+} from "../../_internal/resources/organization-template.service";
 import {NgbModal, NgbTimeAdapter, NgbTypeaheadSelectItemEvent} from "@ng-bootstrap/ng-bootstrap";
 import {TimepickerAdapterService} from "./_internal/timepicker-adapter.service";
 import {NgForm, NgModel} from "@angular/forms";
@@ -352,9 +356,9 @@ export class EditComponent implements OnInit {
                     const navigate = () => {
                         let urlName = this.originalOrganization?.urlName;
                         if (urlName) {
-                            this.router.navigate([`/volunteer/organization/${urlName}`]);
+                            this.router.navigate([`/helf-o-mat/volunteer/organization/${urlName}`]);
                         } else {
-                            this.router.navigate(['/volunteer/result']);
+                            this.router.navigate(['/helf-o-mat/volunteer/result']);
                         }
                     };
 
