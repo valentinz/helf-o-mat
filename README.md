@@ -48,13 +48,14 @@ This command is automatically proxying the API to the backend service.
 You can reach the API at `http://localhost:8080/`.
 The frontend is running at `http://localhost:4200/`.
 
-### Users
+### Setting up the Users
 
-To sign-in to the application you need to go to [Keycloak](http://localhost:8085/auth/admin/master/console/#/realms/helfomat/users) and create a user.
-The username for the admin console is `admin` and the password is `secret`.
-After pressing the `Add user` button, you need to give the user a username.
-Once the user is created you need to give the user a password in the `Credentials` tab.
-In the `Role Mapping` you can assign one of the Helf-O-Mat roles (e.g. `helfomat_admin`).
+You first need to go to Keycloak http://localhost:8085 and sign in with the user `admin` and the password `secret`.
+Once you signed in, select the realm `master` and import the [helfomat-web-profile-admin.json](helfomat-docker/helfomat-web-profile-admin.json) as a new client.
+Inside the client, you still need to go to `Service Account Roles` and select the role `admin` as an Assigned Role.
+
+Next, select the realm Helfenkannjeder, go to Users and create a new user with a password.
+The user must have the Role Mapping `helfomat_admin` to be able to grant everything.
 
 ### Offline Usage (Unsupported)
 
