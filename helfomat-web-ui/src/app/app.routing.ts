@@ -8,6 +8,7 @@ import {AuthenticateComponent} from "./authenticate/authenticate.component";
 import {KioskRouteComponent} from "./kiosk/kiosk-route.component";
 import {AppModule} from "./app.module";
 import {ConfirmEmailComponent} from "./confirm-email/confirm-email.component";
+import {MarkdownComponent} from "./markdown/markdown.component";
 
 const appRoutes: Routes = [
     {
@@ -31,6 +32,12 @@ const appRoutes: Routes = [
     {path: 'helf-o-mat/organisation/:organization', redirectTo: '/helf-o-mat/volunteer/organization/:organization'},
     {path: 'helf-o-mat/authenticate', component: AuthenticateComponent},
     {path: 'authenticate', component: AuthenticateComponent},
+    {path: 'impressum', component: MarkdownComponent},
+    {path: 'datenschutz', component: MarkdownComponent},
+    {path: 'partner', component: MarkdownComponent},
+    {path: 'verein/ueber-uns', redirectTo: '/verein'},
+    {path: 'verein/spenden', redirectTo: '/verein'},
+    {path: 'verein', component: MarkdownComponent},
     {path: '', redirectTo: '/helf-o-mat/volunteer/question', pathMatch: 'full'}
 ];
 

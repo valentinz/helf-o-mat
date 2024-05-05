@@ -20,6 +20,8 @@ import {KioskRouteModule} from "./kiosk/kiosk-route.module";
 import {RECAPTCHA_V3_SITE_KEY} from "ng-recaptcha";
 import {environment} from "../environments/environment";
 import {ConfirmEmailModule} from "./confirm-email/confirm-email.module";
+import {MarkdownModule as NgxMarkdownModule} from "ngx-markdown";
+import {MarkdownModule} from "./markdown/markdown.module";
 
 export function createTranslateLoader(http: HttpClient) {
     return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -42,6 +44,7 @@ export function createTranslateLoader(http: HttpClient) {
         AuthenticateModule,
         KioskRouteModule,
         ConfirmEmailModule,
+        MarkdownModule,
         routing,
         TranslateModule.forRoot({
             loader: {
@@ -58,7 +61,8 @@ export function createTranslateLoader(http: HttpClient) {
             resourceServer: {
                 sendAccessToken: true
             }
-        })
+        }),
+        NgxMarkdownModule.forRoot()
     ],
     providers: [
         appRoutingProviders,
