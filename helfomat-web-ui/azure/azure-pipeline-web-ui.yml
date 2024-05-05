@@ -61,29 +61,6 @@ stages:
       - upload: $(k8sDirectory)
         artifact: k8s
 
-  - stage: BuildDevelopKiosk
-    displayName: Build Docker Develop Kiosk
-    dependsOn: Build
-    condition: and(succeeded(), or(eq(variables['Build.SourceBranch'], 'refs/heads/develop'), eq(variables['Build.Reason'], 'Manual')))
-    jobs:
-    - job: BuildPushDockerDevelopKiosk
-      displayName: Build & Push Docker Develop Kiosk
-      steps:
-        - task: Docker@2
-          displayName: Build and push an image to public container registry
-          inputs:
-            command: buildAndPush
-            repository: $(publicImageRepository)
-            dockerfile: $(dockerKioskFilePath)
-            buildContext: $(dockerBuildContext)
-            containerRegistry: $(publicDockerRegistryServiceConnection)
-            tags: |
-              $(tagDevelop)
-              latest-develop
-
-        - upload: $(k8sKioskDirectory)
-          artifact: k8s-kiosk
-
 #  - stage: DeployDevStage
 #    displayName: Deploy Stage
 #    dependsOn: BuildDevelop
@@ -146,29 +123,6 @@ stages:
 
       - upload: $(k8sDirectory)
         artifact: k8s
-
-  - stage: BuildMasterKiosk
-    displayName: Build Docker Master Kiosk
-    dependsOn: Build
-    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
-    jobs:
-      - job: BuildPushDockerMasterKiosk
-        displayName: Build & Push Docker Master Kiosk
-        steps:
-          - task: Docker@2
-            displayName: Build and push an image to public container registry
-            inputs:
-              command: buildAndPush
-              repository: helfenkannjeder/helfomat-web-ui-kiosk
-              dockerfile: $(dockerKioskFilePath)
-              buildContext: $(dockerBuildContext)
-              containerRegistry: $(publicDockerRegistryServiceConnection)
-              tags: |
-                $(tagMaster)
-                latest
-
-          - upload: $(k8sKioskDirectory)
-            artifact: k8s-kiosk
 
 
   - stage: DeployProdStage
