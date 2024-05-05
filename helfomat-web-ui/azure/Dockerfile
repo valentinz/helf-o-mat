@@ -14,5 +14,6 @@ RUN npm run-script build-prod
 
 FROM nginx:1.17.10-alpine
 
-COPY --from=builder /usr/src/app/dist /usr/share/nginx/html/helf-o-mat
+RUN rm -rf /usr/share/nginx/html
+COPY --from=builder /usr/src/app/dist /usr/share/nginx/html
 COPY ./azure/nginx.conf /etc/nginx/conf.d/default.conf
