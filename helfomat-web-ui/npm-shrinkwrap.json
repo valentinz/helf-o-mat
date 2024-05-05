@@ -2685,6 +2685,11 @@
       "integrity": "sha512-3c+yGKvVP5Y9TYBEibGNR+kLtijnj7mYrXRg+WpFb2X9xm04g/DXYkfg4hmzJQosc9snFNUPkbYIhu+KAm6jJw==",
       "dev": true
     },
+    "@types/marked": {
+      "version": "4.3.2",
+      "resolved": "https://registry.npmjs.org/@types/marked/-/marked-4.3.2.tgz",
+      "integrity": "sha512-a79Yc3TOk6dGdituy8hmTTJXjOkZ7zsFYV10L337ttq/rec8lRMDBpV7fL3uLx6TgbFCa5DU/h8FmIBQPSbU0w=="
+    },
     "@types/minimatch": {
       "version": "3.0.3",
       "resolved": "https://registry.npmjs.org/@types/minimatch/-/minimatch-3.0.3.tgz",
@@ -5465,6 +5470,11 @@
       "resolved": "https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz",
       "integrity": "sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A=="
     },
+    "emoji-toolkit": {
+      "version": "6.6.0",
+      "resolved": "https://registry.npmjs.org/emoji-toolkit/-/emoji-toolkit-6.6.0.tgz",
+      "integrity": "sha512-pEu0kow2p1N8zCKnn/L6H0F3rWUBB3P3hVjr/O5yl1fK7N9jU4vO4G7EFapC5Y3XwZLUCY0FZbOPyTkH+4V2eQ=="
+    },
     "emojis-list": {
       "version": "3.0.0",
       "resolved": "https://registry.npmjs.org/emojis-list/-/emojis-list-3.0.0.tgz",
@@ -8075,6 +8085,21 @@
         "source-map-support": "^0.5.5"
       }
     },
+    "katex": {
+      "version": "0.13.24",
+      "resolved": "https://registry.npmjs.org/katex/-/katex-0.13.24.tgz",
+      "integrity": "sha512-jZxYuKCma3VS5UuxOx/rFV1QyGSl3Uy/i0kTJF3HgQ5xMinCQVF8Zd4bMY/9aI9b9A2pjIBOsjSSm68ykTAr8w==",
+      "requires": {
+        "commander": "^8.0.0"
+      },
+      "dependencies": {
+        "commander": {
+          "version": "8.3.0",
+          "resolved": "https://registry.npmjs.org/commander/-/commander-8.3.0.tgz",
+          "integrity": "sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww=="
+        }
+      }
+    },
     "killable": {
       "version": "1.0.1",
       "resolved": "https://registry.npmjs.org/killable/-/killable-1.0.1.tgz",
@@ -8951,6 +8976,31 @@
       "integrity": "sha512-eswPninzx2H1AyZrSNS36wMd4eLg9Hce5Utc23J3dAGher/PNC+6X9MBTqsOnQGbQk7wV1dhlZZH3252VwB05A==",
       "requires": {
         "tslib": "^1.9.0"
+      }
+    },
+    "ngx-markdown": {
+      "version": "11.2.0",
+      "resolved": "https://registry.npmjs.org/ngx-markdown/-/ngx-markdown-11.2.0.tgz",
+      "integrity": "sha512-L4nnRPibXhsjwY/quALP/QintX0QQHyZATe7QxXB8kMkjuMzSy6ESo/i4ZA7glMdEAZv3h18MOBd4vBWpfdy8Q==",
+      "requires": {
+        "@types/marked": "^4.0.2",
+        "emoji-toolkit": "^6.0.1",
+        "katex": "^0.13.0",
+        "marked": "^4.0.10",
+        "prismjs": "^1.23.0",
+        "tslib": "^2.0.0"
+      },
+      "dependencies": {
+        "marked": {
+          "version": "4.3.0",
+          "resolved": "https://registry.npmjs.org/marked/-/marked-4.3.0.tgz",
+          "integrity": "sha512-PRsaiG84bK+AMvxziE/lCFss8juXjNaWzVbN5tXAm4XjeaS9NAHhop+PjQxz2A9h8Q4M/xGmzP8vqNwy6JeK0A=="
+        },
+        "tslib": {
+          "version": "2.6.2",
+          "resolved": "https://registry.npmjs.org/tslib/-/tslib-2.6.2.tgz",
+          "integrity": "sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q=="
+        }
       }
     },
     "ngx-page-scroll": {
@@ -10822,6 +10872,11 @@
       "resolved": "https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.1.0.tgz",
       "integrity": "sha512-97DXOFbQJhk71ne5/Mt6cOu6yxsSfM0QGQyl0L25Gca4yGWEGJaig7l7gbCX623VqTBNGLRLaVUCnNkcedlRSQ==",
       "dev": true
+    },
+    "prismjs": {
+      "version": "1.29.0",
+      "resolved": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+      "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q=="
     },
     "process": {
       "version": "0.11.10",

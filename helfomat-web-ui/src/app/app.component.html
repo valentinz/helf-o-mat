@@ -1,7 +1,7 @@
 <div id="body">
     <div id="tabsLeft" [@menu]="menuVisible">
         <ul>
-            <li><a href="https://helfenkannjeder.de/verein/ueber-uns/">
+            <li [routerLinkActive]="['active']"><a routerLink="/verein">
                 {{ 'menu.association' | translate }}
             </a></li>
             <li><a [href]="getMyAccountUrl()">
@@ -9,9 +9,6 @@
             </a></li>
             <li *ngIf="isReviewer()" [routerLinkActive]="['active']"><a routerLink="/helf-o-mat/admin">
                 {{ 'menu.admin' | translate }}
-            </a></li>
-            <li><a href="https://helfenkannjeder.de/">
-                {{ 'menu.helfenkannjeder' | translate }}
             </a></li>
             <li [routerLinkActive]="['active']"><a routerLink="/helf-o-mat/volunteer">
                 {{ 'menu.helf-o-mat' | translate }}
@@ -38,15 +35,13 @@
         <div>
             <nav class="navbar">
                 <ul class="nav nav-pills mr-auto">
-                    <li class="nav-item"><a class="nav-link" href="//helfenkannjeder.de/neues/">Neues</a></li>
                     <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/helfenkannjeder/">{{ 'navigation.instagram' | translate }}</a></li>
                     <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/HelfenKannJeder/">{{ 'navigation.facebook' | translate }}</a></li>
                 </ul>
                 <ul class="nav nav-pills">
                     <li class="nav-item"><a class="nav-link" href="//helfenkannjeder.de/kontakt/">{{ 'navigation.contact' | translate }}</a></li>
-                    <li class="nav-item"><a class="nav-link" href="//helfenkannjeder.de/faq/">{{ 'navigation.faq' | translate }}</a></li>
-                    <li class="nav-item"><a class="nav-link" href="//helfenkannjeder.de/datenschutz/">{{ 'navigation.privacy' | translate }}</a></li>
-                    <li class="nav-item"><a class="nav-link" href="//helfenkannjeder.de/impressum/">{{ 'navigation.imprint' | translate }}</a></li>
+                    <li class="nav-item"><a class="nav-link" routerLink="/datenschutz/">{{ 'navigation.privacy' | translate }}</a></li>
+                    <li class="nav-item"><a class="nav-link" routerLink="/impressum/">{{ 'navigation.imprint' | translate }}</a></li>
                 </ul>
             </nav>
         </div>
@@ -71,7 +66,7 @@
                      alt="Gewinner der Google Impact Challenge Deutschland 2016">
             </div>
             <div>
-                <p><a href="https://helfenkannjeder.de/partner/">Weitere Sponsoren und Partner</a></p>
+                <p><a routerLink="/partner/">Weitere Sponsoren und Partner</a></p>
             </div>
             <br class="clear"/>
         </div>
