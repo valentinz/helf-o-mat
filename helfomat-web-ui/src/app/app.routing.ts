@@ -40,6 +40,7 @@ const appRoutes: Routes = [
     {path: 'verein/ueber-uns', redirectTo: '/verein'},
     {path: 'verein/spenden', redirectTo: '/verein'},
     {path: 'verein', component: MarkdownComponent},
+    {path: 'helf-o-mat', redirectTo: '/helf-o-mat/volunteer/question'},
     {path: '', redirectTo: '/helf-o-mat/volunteer/question', pathMatch: 'full'}
 ];
 
