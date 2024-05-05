@@ -1,6 +1,6 @@
 {
   "/api": {
-    "target": "http://localhost:8080/helf-o-mat",
+    "target": "http://localhost:8080",
     "secure": "false"
   }
 }
