@@ -22,6 +22,7 @@ import {environment} from "../environments/environment";
 import {ConfirmEmailModule} from "./confirm-email/confirm-email.module";
 import {MarkdownModule as NgxMarkdownModule} from "ngx-markdown";
 import {MarkdownModule} from "./markdown/markdown.module";
+import {ContactFormModule} from "./contact-form/contact-form.module";
 
 export function createTranslateLoader(http: HttpClient) {
     return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -45,6 +46,7 @@ export function createTranslateLoader(http: HttpClient) {
         KioskRouteModule,
         ConfirmEmailModule,
         MarkdownModule,
+        ContactFormModule,
         routing,
         TranslateModule.forRoot({
             loader: {
