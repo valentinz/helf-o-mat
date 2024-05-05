@@ -24,6 +24,7 @@ helfomat.contact-form:
   locale: de_DE
   domain: http://localhost:4200/
   force-to: valentin.zickner@helfenkannjeder.de
+  support-email: noreply@localhost
 
 keycloak:
   realm: helfenkannjeder

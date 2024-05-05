@@ -1,5 +1,8 @@
 helfomat.picture:
   picture-folder: pictures/
+helfomat:
+  contact-form:
+    support-email: noreply@localhost
 
 spring:
   flyway:

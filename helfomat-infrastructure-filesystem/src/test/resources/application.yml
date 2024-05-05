@@ -14,6 +14,9 @@ helfomat:
           phrase: "Ortsgruppe (Basisausstattung/-Tätigkeit)"
           answer: "YES"
 
+  contact-form:
+    support-email: noreply@localhost
+
 spring:
   datasource:
     url: jdbc:h2:mem:testdb
