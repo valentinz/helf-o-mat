@@ -97,7 +97,7 @@ export class ReviewComponent {
                 }
 
                 if (this.nextApproval != null) {
-                    this.router.navigate([`/admin/approval/review/${this.nextApproval.approvalId.value}`]);
+                    this.router.navigate([`/helf-o-mat/admin/approval/review/${this.nextApproval.approvalId.value}`]);
                     return;
                 }
                 this.router.navigate(["/helf-o-mat/admin/approval"])
