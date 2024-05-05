@@ -2,7 +2,7 @@
 
 [![Land Baden-Württemberg](assets/sponsors/land_bw.png)](https://www.baden-wuerttemberg.de/)
 [![Telematis](assets/sponsors/telematis.png)](https://www.telematis.de/)
-[![Bohling & Eisele](assets/sponsors/bohling-eisele.png)](https://bohling-eisele.de/)
+[![Bohling & Eisele](assets/sponsors/bohling-eisele.jpg)](https://bohling-eisele.de/)
 
 
 # Partner
