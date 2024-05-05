@@ -1,0 +1,86 @@
+<div class="markdown-content">
+    <h1>{{ 'contact-form.title' | translate }}</h1>
+    <p>{{ 'contact-form.description' | translate }}</p>
+
+    <form (ngSubmit)="submit(form)" #form="ngForm">
+        <div class="modal-body text-left">
+            <div class="form-group">
+                <label for="textFieldNameAddress">{{ 'contact-form.name' | translate }}</label>
+                <input type="text" class="form-control" id="textFieldNameAddress" name="name"
+                       [ngClass]="{'is-invalid': hasError(nameField)}" [(ngModel)]="contactFormContent.name"
+                       #nameField="ngModel" required>
+                <div *ngIf="hasError(nameField)" class="invalid-feedback">
+                    <div
+                        *ngIf="nameField.errors.required">{{ 'contact-form.error.nameIsRequired' | translate }}</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="textFieldEmailAddress">{{ 'contact-form.emailAddress' | translate }}</label>
+                <input type="email" class="form-control" id="textFieldEmailAddress" name="email"
+                       [ngClass]="{'is-invalid': hasError(emailField)}" [(ngModel)]="contactFormContent.email"
+                       #emailField="ngModel" required email="true">
+                <div *ngIf="hasError(emailField)" class="invalid-feedback">
+                    <div
+                        *ngIf="emailField.errors.required">{{ 'contact-form.error.emailIsRequired' | translate }}</div>
+                    <div
+                        *ngIf="emailField.errors.email">{{ 'contact-form.error.emailNeedsToBeFormatted' | translate }}</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="textFieldSubject">{{ 'contact-form.subject' | translate }}</label>
+                <select class="form-control" name="subject"
+                        [ngClass]="{'is-invalid': hasError(subjectField)}" [(ngModel)]="contactFormContent.subject"
+                        #subjectField="ngModel" required>
+                    <option>Lob/Kritik</option>
+                    <option>Anfrage vom Presse/Medien</option>
+                    <option>Anfrage Werbematerial (Anschrift mit angeben)</option>
+                    <option>Unterstützung von HelfenKannJeder.de</option>
+                    <option>Support (Organisationsbearbeitung / Helf-O-Mat)</option>
+                    <option>Sonstiges</option>
+                </select>
+                <div *ngIf="hasError(subjectField)" class="invalid-feedback">
+                    <div
+                        *ngIf="subjectField.errors.required">{{ 'contact-form.error.subjectIsRequired' | translate }}</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="textFieldBody">{{ 'contact-form.body' | translate }}</label>
+                <textarea class="form-control" id="textFieldBody" rows="8" name="message"
+                          [ngClass]="{'is-invalid': hasError(messageField)}" [(ngModel)]="contactFormContent.message"
+                          #messageField="ngModel" required></textarea>
+                <div *ngIf="hasError(messageField)" class="invalid-feedback">
+                    <div
+                        *ngIf="messageField.errors.required">{{ 'contact-form.error.messageIsRequired' | translate }}</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="textFieldLocation">{{ 'contact-form.location' | translate }}</label>
+                <input type="text" class="form-control" id="textFieldLocation" name="location"
+                       [(ngModel)]="contactFormContent.location"
+                       #emailField="ngModel">
+            </div>
+            <div class="form-group">
+                <label for="textFieldAddress">{{ 'contact-form.address' | translate }}</label>
+                <textarea class="form-control" id="textFieldAddress" rows="3" name="address"
+                          [(ngModel)]="contactFormContent.address"
+                          #messageField="ngModel"></textarea>
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="acceptPrivacyNotice" name="acceptPrivacyNotice"
+                       [ngClass]="{'is-invalid': hasError(privacyNoticeField)}" required [(ngModel)]="privacyNotice"
+                       #privacyNoticeField="ngModel">
+                <label class="form-check-label" for="acceptPrivacyNotice"
+                       [innerHTML]="'contact-form.acceptPrivacyNotice' | translate"></label>
+                <br/>
+                This site is protected by reCAPTCHA and the Google
+                <a target="_blank" href="https://policies.google.com/privacy">Privacy Policy</a> and
+                <a target="_blank" href="https://policies.google.com/terms">Terms of Service</a> apply.
+            </div>
+            <div class="text-right">
+                <button type="submit"
+                        class="btn btn-primary">{{ 'contact-form.sendEmail' | translate }}</button>
+            </div>
+        </div>
+    </form>
+
+</div>

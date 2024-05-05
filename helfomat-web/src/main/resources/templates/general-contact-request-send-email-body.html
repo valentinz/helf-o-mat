@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:remove="all">Template for HTML email</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<strong th:text="${#messages.msg('general-contact-request-send-email.name')}">Name:</strong>
+<p th:text="${contactRequest.name}">Der Name</p>
+
+<strong th:text="${#messages.msg('general-contact-request-send-email.email')}">E-Mail:</strong>
+<p th:text="${contactRequest.email}">email@helfenkannjeder.de</p>
+
+<strong th:text="${#messages.msg('general-contact-request-send-email.reason')}">Anliegen:</strong>
+<p th:text="${contactRequest.subject}">Der Betreff</p>
+
+<strong th:text="${#messages.msg('general-contact-request-send-email.message')}">Nachricht:</strong>
+<p th:text="${contactRequest.message}">Die Nachricht</p>
+
+<strong th:text="${#messages.msg('general-contact-request-send-email.location')}">Wohnort:</strong>
+<p th:text="${contactRequest.location}">Karlsruhe</p>
+
+<strong th:text="${#messages.msg('general-contact-request-send-email.address')}">Adresse:</strong>
+<p th:text="${contactRequest.address}">Feuerwache 1, Karlsruhe</p>
+</body>
+</html>

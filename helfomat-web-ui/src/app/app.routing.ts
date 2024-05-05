@@ -9,6 +9,7 @@ import {KioskRouteComponent} from "./kiosk/kiosk-route.component";
 import {AppModule} from "./app.module";
 import {ConfirmEmailComponent} from "./confirm-email/confirm-email.component";
 import {MarkdownComponent} from "./markdown/markdown.component";
+import {ContactFormComponent} from "./contact-form/contact-form.component";
 
 const appRoutes: Routes = [
     {
@@ -35,6 +36,7 @@ const appRoutes: Routes = [
     {path: 'impressum', component: MarkdownComponent},
     {path: 'datenschutz', component: MarkdownComponent},
     {path: 'partner', component: MarkdownComponent},
+    {path: 'kontakt', component: ContactFormComponent},
     {path: 'verein/ueber-uns', redirectTo: '/verein'},
     {path: 'verein/spenden', redirectTo: '/verein'},
     {path: 'verein', component: MarkdownComponent},

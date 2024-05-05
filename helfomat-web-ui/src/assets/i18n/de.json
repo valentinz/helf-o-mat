@@ -159,7 +159,7 @@
       "changes": {
         "message": {
           "title": "Fehler beim Speichern",
-          "description": "Es ist ein Fehler beim Speichern aufgetretten. Bitte versuche es später noch einmal."
+          "description": "Es ist ein Fehler beim Speichern aufgetreten. Bitte versuche es später noch einmal."
         },
         "noChanges": {
           "title": "Keine Änderungen",
@@ -358,11 +358,11 @@
         "subjectIsRequired": "Bitte gebe einen Betreff an, um mit der Organisation Kontakt aufzunehmen.",
         "messageIsRequired": "Bitte gebe ein persönliche Nachricht an die Organisation an, sodass der Ansprechpartner direkt weiß, wie er Dir weiterhelfen kann.",
         "emailNeedsToBeFormatted": "Die angegebene E-Mail-Adresse sieht nicht nach einer E-Mail-Adresse aus, stimmt hier was nicht?",
-        "errorSubmit": "Ein Fehler während dem Versenden ist aufgetretten. Ist die E-Mail-Adresse korrekt? Vielleicht probierst du es einfach später nochmal."
+        "errorSubmit": "Ein Fehler während dem Versenden ist aufgetreten. Ist die E-Mail-Adresse korrekt? Vielleicht probierst du es einfach später nochmal."
       },
       "toast": {
         "success": "Die Bestätigung wurde nochmals verschickt. Bitte überprüfe auch dein Spam Ordner.",
-        "error": "Leider ist ein Fehler aufgetretten beim Senden der Bestätigung."
+        "error": "Leider ist ein Fehler aufgetreten beim Senden der Bestätigung."
       }
     }
   },
@@ -371,6 +371,30 @@
     "toast": {
       "success": "Die E-Mail wurde erfolgreich verschickt!",
       "failed": "Es hat leider nicht geklappt die E-Mail zu senden. Bitte probiere es später nochmal oder schreibe an webmaster@helfenkannjeder.de."
+    }
+  },
+  "contact-form": {
+    "title": "Kontakt",
+    "description": "Wir freuen uns über eine Kontaktaufnahme! Schreib uns, wenn Du Fehler entdeckt hast, Verbesserungsvorschläge unterbreiten möchtest, eine gute Idee hast, die hier realisiert werden kann oder einfach nur ein Lob loswerden willst.",
+    "name": "Name",
+    "emailAddress": "E-Mail-Adresse",
+    "subject": "Anliegen",
+    "body": "Nachricht",
+    "location": "Wohnort",
+    "address": "Anschrift für Werbematerialversand",
+    "acceptPrivacyNotice": "Ich bestätige hiermit, dass ich <a href='https://helfenkannjeder.de/datenschutz/' target=_blank>die Datenschutzbedingungen</a> gelesen habe und akzeptiere.",
+    "captcha": "Sicherheitsüberprüfung",
+    "sendEmail": "Formular absenden",
+    "error": {
+      "nameIsRequired": "Bitte gebe Deinen Namen an.",
+      "emailIsRequired": "Bitte gebe bitte Deine E-Mail-Adresse an. Andernfalls können wir Dir nicht antworten.",
+      "subjectIsRequired": "Bitte gebe einen Betreff an, um mit uns kontakt aufzunehmen.",
+      "messageIsRequired": "Bitte gebe ein persönliche Nachricht an, sodass wir wissen, wie er Dir weiterhelfen können.",
+      "emailNeedsToBeFormatted": "Die angegebene E-Mail-Adresse sieht nicht nach einer E-Mail-Adresse aus, stimmt hier was nicht?",
+      "errorSubmit": "Ein Fehler während dem Versenden ist aufgetreten. Ist die E-Mail-Adresse korrekt? Vielleicht probierst du es einfach später nochmal."
+    },
+    "toast": {
+      "success": "Vielen Dank! Die Anfrage an uns ist raus!"
     }
   },
   "navigation": {

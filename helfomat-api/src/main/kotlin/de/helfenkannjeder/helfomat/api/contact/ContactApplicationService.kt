@@ -29,7 +29,8 @@ open class ContactApplicationService(
     val emailService: EmailService,
     @Value("\${helfomat.contact-form.domain:https://www.helfenkannjeder.de/}") val domain: String,
     @Value("\${helfomat.contact-form.locale:de_DE}") val locale: String,
-    @Value("\${helfomat.contact-form.force-to:}") val contactFormForceTo: String
+    @Value("\${helfomat.contact-form.force-to:}") val contactFormForceTo: String,
+    @Value("\${helfomat.contact-form.support-email}") val supportEmail: String
 ) {
 
     open fun createContactRequest(contactRequestDto: CreateContactRequestDto): ContactRequestResult {
@@ -104,6 +105,28 @@ open class ContactApplicationService(
             contactRequest.organizationId,
             organization.urlName
         )
+    }
+
+    open fun createGeneralContactRequest(generalContactRequestDto: CreateGeneralContactRequestDto) {
+        if (!this.captchaValidator.validate(generalContactRequestDto.captcha)) {
+            throw CaptchaValidationFailedException()
+        }
+
+        val attributes = mapOf(
+            Pair("domain", domain),
+            Pair("contactRequest", generalContactRequestDto)
+        )
+
+        emailService.sendEmail(
+            supportEmail,
+            "general-contact-request-send-email",
+            arrayOf(generalContactRequestDto.subject),
+            attributes,
+            listOf(),
+            toLocale(),
+            generalContactRequestDto.email
+        )
+
     }
 
     private fun toLocale(): Locale {
