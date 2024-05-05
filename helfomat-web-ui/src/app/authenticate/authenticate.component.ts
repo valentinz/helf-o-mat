@@ -25,7 +25,7 @@ export class AuthenticateComponent implements OnInit {
                 let authenticated = this.oAuthService.hasValidAccessToken();
                 if (authenticated) {
                     let newRoute = decodeURIComponent(this.oAuthService.state);
-                    if (newRoute == null || newRoute  == "" || newRoute.startsWith('/authenticate')) {
+                    if (newRoute == null || newRoute  == "" || newRoute.startsWith('/helf-o-mat/authenticate') || newRoute.startsWith('/authenticate')) {
                         newRoute = '/';
                     }
                     this.router.navigate([newRoute])

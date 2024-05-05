@@ -25,7 +25,7 @@ export class IsLoggedInGuard extends BaseAuthenticationGuard implements CanActiv
                 let authenticated = this.oAuthService.hasValidAccessToken();
                 if (!authenticated) {
                     this.router.navigate([
-                        '/authenticate'
+                        '/helf-o-mat/authenticate'
                     ], {
                         queryParams: {
                             redirectTo: state.url

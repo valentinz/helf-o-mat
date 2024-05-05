@@ -7,13 +7,13 @@
             <li><a [href]="getMyAccountUrl()">
                 {{ 'menu.myAccount' | translate }}
             </a></li>
-            <li *ngIf="isReviewer()" [routerLinkActive]="['active']"><a routerLink="/admin">
+            <li *ngIf="isReviewer()" [routerLinkActive]="['active']"><a routerLink="/helf-o-mat/admin">
                 {{ 'menu.admin' | translate }}
             </a></li>
             <li><a href="https://helfenkannjeder.de/">
                 {{ 'menu.helfenkannjeder' | translate }}
             </a></li>
-            <li [routerLinkActive]="['active']"><a routerLink="/volunteer">
+            <li [routerLinkActive]="['active']"><a routerLink="/helf-o-mat/volunteer">
                 {{ 'menu.helf-o-mat' | translate }}
             </a></li>
         </ul>

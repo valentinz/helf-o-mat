@@ -68,7 +68,7 @@ export class KioskNavigateComponent {
     }
 
     public hasHistory() {
-        return this.history.length > 1 && this.router.url.startsWith('/volunteer/organization');
+        return this.history.length > 1 && this.router.url.startsWith('/helf-o-mat/volunteer/organization');
     }
 
     public home() {

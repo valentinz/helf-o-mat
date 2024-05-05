@@ -13,9 +13,9 @@
     "test": "./node_modules/.bin/ng test",
     "pree2e": "webdriver-manager update",
     "e2e": "protractor",
-    "postinstall": "./node_modules/.bin/ng build --prod --build-optimizer --output-path=target/client --base-href=/helf-o-mat/",
-    "docker": "rm -rf docker/html && npm install && ./node_modules/.bin/ng build --prod --build-optimizer --output-path=docker/html/helf-o-mat --base-href=/helf-o-mat/",
-    "build-prod": "./node_modules/.bin/ng build --prod --build-optimizer --base-href=/helf-o-mat/",
+    "postinstall": "./node_modules/.bin/ng build --prod --build-optimizer --output-path=target/client --base-href=/",
+    "docker": "rm -rf docker/html && npm install && ./node_modules/.bin/ng build --prod --build-optimizer --output-path=docker/html --base-href=/",
+    "build-prod": "./node_modules/.bin/ng build --prod --build-optimizer --base-href=/",
     "build-prod:kiosk": "./node_modules/.bin/ng build --configuration=kiosk-production --build-optimizer --base-href=/"
   },
   "private": true,

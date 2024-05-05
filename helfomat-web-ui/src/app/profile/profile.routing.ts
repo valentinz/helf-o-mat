@@ -4,7 +4,7 @@ import {IsLoggedInGuard} from "../_internal/authentication/is-logged-in.guard";
 
 export const manageRoutes: Routes = [
     {
-        path: 'profile',
+        path: 'helf-o-mat/profile',
         component: ProfileComponent,
         canActivate: [
             IsLoggedInGuard

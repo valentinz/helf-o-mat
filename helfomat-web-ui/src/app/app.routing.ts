@@ -11,7 +11,7 @@ import {ConfirmEmailComponent} from "./confirm-email/confirm-email.component";
 
 const appRoutes: Routes = [
     {
-        path: 'volunteer',
+        path: 'helf-o-mat/volunteer',
         children: [
             {path: 'organization/:organization', component: OrganizationComponent, canActivate: [NoAuthGuard]},
             {path: 'result', component: ResultComponent, canActivate: [NoAuthGuard]},
@@ -22,15 +22,16 @@ const appRoutes: Routes = [
         ]
     },
     {
-        path: 'kiosk/:organizationType/:latitude/:longitude',
+        path: 'helf-o-mat/kiosk/:organizationType/:latitude/:longitude',
         component: KioskRouteComponent
     },
-    {path: 'result', redirectTo: '/volunteer/result'},
-    {path: 'question', redirectTo: '/volunteer/question'},
-    {path: 'location', redirectTo: '/volunteer/location'},
-    {path: 'organisation/:organization', redirectTo: '/volunteer/organization/:organization'},
+    {path: 'helf-o-mat/result', redirectTo: '/helf-o-mat/volunteer/result'},
+    {path: 'helf-o-mat/question', redirectTo: '/helf-o-mat/volunteer/question'},
+    {path: 'helf-o-mat/location', redirectTo: '/helf-o-mat/volunteer/location'},
+    {path: 'helf-o-mat/organisation/:organization', redirectTo: '/helf-o-mat/volunteer/organization/:organization'},
+    {path: 'helf-o-mat/authenticate', component: AuthenticateComponent},
     {path: 'authenticate', component: AuthenticateComponent},
-    {path: '', redirectTo: '/volunteer/question', pathMatch: 'full'}
+    {path: '', redirectTo: '/helf-o-mat/volunteer/question', pathMatch: 'full'}
 ];
 
 export const appRoutingProviders: any[] = [];

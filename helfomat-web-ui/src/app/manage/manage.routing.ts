@@ -8,7 +8,7 @@ import {ReviewComponent} from "./approval/review/review.component";
 
 export const manageRoutes: Routes = [
     {
-        path: 'admin',
+        path: 'helf-o-mat/admin',
         canActivate: [IsReviewerGuard],
         children: [
             {
@@ -33,12 +33,12 @@ export const manageRoutes: Routes = [
         ]
     },
     {
-        path: 'volunteer/organization/:organization/edit',
+        path: 'helf-o-mat/volunteer/organization/:organization/edit',
         component: EditComponent,
         canActivate: [IsLoggedInGuard]
     },
     {
-        path: 'volunteer/organization/:organizationType/create',
+        path: 'helf-o-mat/volunteer/organization/:organizationType/create',
         component: EditComponent,
         canActivate: [IsLoggedInGuard]
     }

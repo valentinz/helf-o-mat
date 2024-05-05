@@ -16,6 +16,6 @@ export class KioskHomeComponent {
     }
 
     public start() {
-        this.router.navigate(['/volunteer/question', {answers: "[]"}]);
+        this.router.navigate(['/helf-o-mat/volunteer/question', {answers: "[]"}]);
     }
 }

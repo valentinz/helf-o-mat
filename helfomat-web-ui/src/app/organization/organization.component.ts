@@ -4,7 +4,14 @@ import {Answer} from '../shared/answer.model';
 import {UrlParamBuilder} from '../url-param.builder';
 import {combineLatest, Observable, Subject} from 'rxjs';
 import {ObservableUtil} from '../shared/observable.util';
-import {Address, ContactPerson, Organization, OrganizationService, TravelDistance, TravelMode} from '../_internal/resources/organization.service';
+import {
+    Address,
+    ContactPerson,
+    Organization,
+    OrganizationService,
+    TravelDistance,
+    TravelMode
+} from '../_internal/resources/organization.service';
 import {GeoPoint} from '../../_internal/geopoint';
 import {filter, flatMap, map, switchMap, tap} from "rxjs/operators";
 import {hasRole, Roles} from "../_internal/authentication/util";
@@ -76,7 +83,7 @@ export class OrganizationComponent implements OnInit, AfterViewInit {
             this._back$.asObservable()
         ])
             .subscribe(([position, zoom, distance, userAnswers]: [GeoPoint, number, number, Answer[], void]) => {
-                this.router.navigate(['/volunteer/result', {
+                this.router.navigate(['/helf-o-mat/volunteer/result', {
                     answers: UrlParamBuilder.buildAnswers(userAnswers),
                     position: UrlParamBuilder.buildGeoPoint(position),
                     zoom: zoom,
