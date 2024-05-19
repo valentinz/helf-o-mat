@@ -63,7 +63,7 @@ Eisenbahnstr. 42<br>
 
 ## Mitglied werden
 
-Über neue Mitglieder freuen wir uns - einfach das Formular herunterladen, ausfüllen und per Post an uns schicken:
+Über neue Mitglieder freuen wir uns - einfach das [Formular](assets/markdown/docs/beitrittserklaerung_download.pdf) herunterladen, ausfüllen und per Post an uns schicken:
 
 HelfenKannJeder e. V.<br>
 c/o Carsten Schmidt<br>
