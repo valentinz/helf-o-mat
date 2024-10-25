@@ -36,6 +36,20 @@ Based on them, you are able to create location specific organizations.
 For the deployment we are providing docker containers at [Docker Hub](https://hub.docker.com/u/helfenkannjeder).
 The container names are aligned to the names of the maven modules. 
 
+### Setup Keycloak
+
+Login to Keycloak Backend  https://keycloakurl.tld/admin  (find credentials in K8s:Config/Secrets/keycloak-secret).
+In the [Select-realm]-Dropdown, klick the [Add realm] button and import the [realm-export.json](helfomat-docker/realm-export.json).
+In the "Realm Settings" tab "Themes", set Login- and Account-Theme to `helfenkannjeder`.
+In the menu "Clients", select `Helfomat-web-profile-admin` Tab "Credentials" and copy the Secret to K8s (helfomat-web-secret: helfomat.keycloak.client.client-secret)
+Select Client `Helfomat-web-ui` and set Redirect-URI (`.../helf-o-mat/authenticate`) and Web Origin (App- and Keycloak-Domain)
+
+Now, select realm `master` and import the [helfomat-web-profile-admin.json](helfomat-docker/helfomat-web-profile-admin.json) as a new client.
+Inside the client, you still need to go to `Service Account Roles` and select the role `admin` as an Assigned Role.
+
+Next, select the realm Helfenkannjeder, go to Users and create a new user with a password.
+The user must have the Role Mapping `helfomat_admin` to be able to i.e. review organization changes.
+
 ## Development
 
 For your convenience there is a [docker-compose.yml](helfomat-docker/docker-compose.yml) file available.
