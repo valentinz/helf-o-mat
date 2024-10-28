@@ -31,7 +31,7 @@ open class AutoImportOrganizationTemplatePictureRunner(
             val pictureId = toPictureId(filename) ?: continue
             if (!pictureRepository.existsById(pictureId)) {
                 pictureApplicationService.savePicture(pictureId, importPicture.inputStream, importPicture.contentLength())
-                pictureRepository.save(pictureRepository.getOne(pictureId).apply { public = true })
+                pictureRepository.save(pictureRepository.getReferenceById(pictureId).apply { public = true })
             }
         }
         AuthenticationUtil.clearAuthentication()

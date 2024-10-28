@@ -33,7 +33,7 @@ open class PictureApplicationService(
             throw PictureNotFoundException(pictureId)
         }
         ensurePictureExists(pictureId)
-        val pictureInformation = pictureRepository.getOne(pictureId)
+        val pictureInformation = pictureRepository.getReferenceById(pictureId)
         val inputStream = pictureStorageService.getPicture(pictureId)
         return PictureDto(inputStream, pictureInformation.contentType)
     }
@@ -44,7 +44,7 @@ open class PictureApplicationService(
             throw PictureNotFoundException(pictureId)
         }
         ensurePictureExists(pictureId)
-        val pictureInformation = pictureRepository.getOne(pictureId)
+        val pictureInformation = pictureRepository.getReferenceById(pictureId)
         val inputStream = pictureStorageService.getPicture(pictureId, size)
         return PictureDto(inputStream, pictureInformation.contentType)
     }

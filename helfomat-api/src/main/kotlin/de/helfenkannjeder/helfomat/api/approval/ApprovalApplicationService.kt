@@ -54,7 +54,7 @@ open class ApprovalApplicationService(
 
     open fun findApprovalItem(approvalId: ApprovalId): ApprovalDetailDto {
         val questions = this.questionRepository.findQuestions()
-        val approval = approvalRepository.getOne(approvalId)
+        val approval = approvalRepository.getReferenceById(approvalId)
         val author = userRepository.findByUsername(approval.requestedDomainEvent.author)
         val organizationId = approval.requestedDomainEvent.organizationId
         val organization: Organization? = organizationRepository.findOne(organizationId.value)
@@ -62,7 +62,7 @@ open class ApprovalApplicationService(
     }
 
     open fun confirmOrganizationChange(approvalId: ApprovalId, confirmedEvents: List<OrganizationEventDto>) {
-        val approval = this.approvalRepository.getOne(approvalId)
+        val approval = this.approvalRepository.getReferenceById(approvalId)
         if (approval.approvedDomainEvent != null) {
             return
         }

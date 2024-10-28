@@ -50,7 +50,7 @@ open class ContactApplicationService(
             throw CaptchaValidationFailedException()
         }
 
-        val contactRequest = contactRequestRepository.getOne(resendContactRequestDto.contactRequestId)
+        val contactRequest = contactRequestRepository.getReferenceById(resendContactRequestDto.contactRequestId)
         val organization = organizationRepository.findOne(contactRequest.organizationId.value) ?: throw ContactRequestInvalid()
 
         if (contactRequest.numberOfConfirmationEmails > 3 || contactRequest.status != ContactRequestStatus.CONFIRMATION_REQUEST_SENT) {
@@ -64,7 +64,7 @@ open class ContactApplicationService(
 
     open fun confirmContactRequest(confirmContactRequestDto: ConfirmContactRequestDto): ConfirmContactRequestResult {
         try {
-            val contactRequest = this.contactRequestRepository.getOne(confirmContactRequestDto.contactRequestId)
+            val contactRequest = this.contactRequestRepository.getReferenceById(confirmContactRequestDto.contactRequestId)
             if (contactRequest.confirmationCode != confirmContactRequestDto.confirmationCode) {
                 throw ContactRequestInvalid()
             }
@@ -99,7 +99,7 @@ open class ContactApplicationService(
     }
 
     open fun getById(contactRequestId: ContactRequestId): ConfirmContactRequestResult {
-        val contactRequest = this.contactRequestRepository.getOne(contactRequestId)
+        val contactRequest = this.contactRequestRepository.getReferenceById(contactRequestId)
         val organization = this.organizationRepository.findOne(contactRequest.organizationId.value) ?: throw ContactRequestInvalid()
         return ConfirmContactRequestResult(
             contactRequest.organizationId,

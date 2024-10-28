@@ -46,7 +46,7 @@ internal class FileSystemPictureStorageServiceTest {
     fun savePicture_withValidUrl_returnsPictureIdOfDownloadedFile() {
         // Arrange
         val pictureId = PictureId("1fc673b0-f1c8-4d8a-bd6c-c852fd44addf")
-        val content = byteArrayOf('a'.toByte(), 'b'.toByte(), 'c'.toByte(), 'd'.toByte())
+        val content = byteArrayOf('a'.code.toByte(), 'b'.code.toByte(), 'c'.code.toByte(), 'd'.code.toByte())
         `when`(downloadService.download(PICTURE_URL)).thenReturn(content)
 
         // Act
@@ -82,7 +82,7 @@ internal class FileSystemPictureStorageServiceTest {
         // Arrange
         val pictureId = PictureId("1fc673b0-f1c8-4d8a-bd6c-c852fd44adda")
         val configuredFolder = "/*"
-        val content = byteArrayOf('a'.toByte(), 'b'.toByte(), 'c'.toByte(), 'd'.toByte())
+        val content = byteArrayOf('a'.code.toByte(), 'b'.code.toByte(), 'c'.code.toByte(), 'd'.code.toByte())
         `when`(downloadService.download(PICTURE_URL)).thenReturn(content)
         val originalFolder = fileSystemPictureConfigurationProperties.pictureFolder
         fileSystemPictureConfigurationProperties.pictureFolder = configuredFolder
@@ -101,7 +101,7 @@ internal class FileSystemPictureStorageServiceTest {
     fun savePicture_withValidUrl_verifyPictureIsScaled() {
         // Arrange
         val pictureId = PictureId("1fc673b0-f1c8-4d8a-bd6c-c852fd44addf")
-        val content = byteArrayOf('a'.toByte(), 'b'.toByte(), 'c'.toByte(), 'd'.toByte())
+        val content = byteArrayOf('a'.code.toByte(), 'b'.code.toByte(), 'c'.code.toByte(), 'd'.code.toByte())
         `when`(downloadService.download(PICTURE_URL)).thenReturn(content)
 
         // Act
