@@ -33,7 +33,7 @@ import {QrCodeService, QuestionAnswers} from "../_internal/qr-code.service";
 export class ResultComponent implements OnInit {
 
     // Inputs
-    private _answers$: Subject<UserAnswer[]> = new Subject<UserAnswer[]>();
+    private _answers$: Subject<UserAnswer[]> = new BehaviorSubject<UserAnswer[]>([]);
     public userAnswers: Observable<UserAnswer[]> = this._answers$.asObservable();
     public _position$: Subject<GeoPoint> = new BehaviorSubject<GeoPoint>(null);
     public _boundingBox$: Subject<BoundingBox> = new Subject<BoundingBox>();

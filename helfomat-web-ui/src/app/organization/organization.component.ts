@@ -145,6 +145,10 @@ export class OrganizationComponent implements OnInit, AfterViewInit {
         return environment.kiosk;
     }
 
+    public useLocalImages(): boolean {
+        return environment.kiosk;
+    }
+
     public getQrCodeLink(organization: Organization, userAnswers: Answer[]) {
         const questionAnswers: QuestionAnswers[] = [];
         if (userAnswers != null) {

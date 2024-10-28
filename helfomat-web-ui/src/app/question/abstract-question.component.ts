@@ -142,12 +142,12 @@ export abstract class AbstractQuestionComponent implements OnInit, OnDestroy {
     }
 
     private getCurrentUserAnswers() {
-        return combineLatest(
+        return combineLatest([
             this.getCurrentAnswers().pipe(
                 map(string => JSON.parse(string))
             ),
             this.questionService.findQuestions()
-        )
+        ])
             .pipe(
                 map(([answers, questions]: [Array<Answer>, Array<Question>]) => this.toUserAnswers(questions, answers))
             );

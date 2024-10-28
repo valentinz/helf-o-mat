@@ -1,0 +1,1697 @@
+[
+  {
+    "id": "06221650-de5b-48e1-8b6f-c6293573228a",
+    "name": "Arbeiter-Samariter-Bund (ASB)",
+    "urlName": "arbeiter-samariter-bund-asb",
+    "organizationType": "ASB",
+    "description": "Die Notfallrettung und die medizinische Versorgung im Notfall gehören zu den wichtigsten Aufgaben der Rettungskräfte des ASB. Sobald der Notruf bei der Rettungsleitstelle eingegangen ist, fahren die ASB-Helfer zum Einsatz und beginnen unmittelbar mit der Versorgung der verunglückten Menschen.",
+    "website": "http://www.asb.de",
+    "logo": {
+      "value": "a32b54e4-1d23-30cf-9d9d-11c0f01f235d"
+    },
+    "pictures": [],
+    "contactPersons": [],
+    "defaultAddress": null,
+    "addresses": [],
+    "questions": [
+      {
+        "questionId": {
+          "value": "8dd070ed-a9de-42af-a017-57a096cf8ec1"
+        },
+        "question": "Möchtest Du Dich in medizinischer Hilfe ausbilden lassen und diese leisten?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "6487dd30-8d1a-4421-b424-2d822cb13e32"
+        },
+        "question": "Du hast keine Angst vor Feuer, nur Respekt. Möchtest Du lernen, wie man es löscht?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "35a19221-8fbf-45fb-9443-65a43aae9013"
+        },
+        "question": "Hast Du Interesse daran, Menschen bei Verkehrsunfällen aus Fahrzeugen zu retten?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "58aca3fe-1783-42ff-81d6-43212d76ce04"
+        },
+        "question": "Kannst Du sehr kurzfristig, ggf. auch innerhalb Deiner Arbeitszeiten, für Einsätze zur Verfügung stehen?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "89342f97-4a0e-457b-994b-5a4851618acc"
+        },
+        "question": "Ist Kochen eine Deiner Leidenschaften?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "e30180fd-bd93-4409-a5f4-8b7eb32948da"
+        },
+        "question": "Möchtest Du aktiv im Naturschutz mitwirken?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "3e3042fa-beca-4d18-bb0c-f6f9a9d8f68f"
+        },
+        "question": "Bist Du handwerklich begabt? Den Umgang mit Kettensäge und Trennschleifer möchtest Du erlernen?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "44d1132f-3407-4387-808d-47368c8d7ffc"
+        },
+        "question": "Hast Du was für Wassersport übrig? Boot fahren, Retten von Menschen aus Gewässern?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "b6788fa7-a360-4b65-8055-193c4c40d1f4"
+        },
+        "question": "Magst Du die Bergwelt? Kannst Du Dir vorstellen, hier Menschen zu retten?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "ae4cdb0c-c35f-42fe-8996-599bfffc8fc2"
+        },
+        "question": "Betreuung von unverletzten Menschen, mit ihnen sprechen, die wichtigsten Dinge des Lebens organisieren und verteilen - Dein Ding?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "c9204024-1399-4b34-b7a4-6919c09cdc41"
+        },
+        "question": "Möchtest Du aktiv als Besatzungsmitglied eines Rettungs- oder Krankentransportwagens mitfahren?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "0d76d16a-c640-40ec-af4e-2111ad36ee46"
+        },
+        "question": "Bist Du handwerklich interessiert und kannst Strom, Heizung, Wasser, etc. in Notunterkünften oder Betreuungs- und Behandlungseinrichtungen installieren?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "18662fa9-a854-4174-9ea9-37bb08c65484"
+        },
+        "question": "Fährst Du gerne Motorrad oder ATV? Kommst Du auch mit etwas größeren Maschinen klar?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "e025aa16-4b69-42db-9fce-d34792d99a77"
+        },
+        "question": "Gebrochene Knochen schocken Dich nicht - auf die richtige Behandlung kommt es an. Interesse?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "82113a83-d99a-4a63-89eb-9e5f4268917b"
+        },
+        "question": "Radlader-, Baggerfahren - schwere Baumaschinen fahren?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "4813a002-9c0e-4f29-af0c-26be7c197bea"
+        },
+        "question": "Klettern, Bergsteigen, Verletzte retten - auch aus der Kletterwand? Wäre das etwas für Dich?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "2e82c293-1f6a-4b4c-8366-f773d42f1caf"
+        },
+        "question": "Deinen Hund zum Suchhund ausbilden, mit ihm vermisste Menschen orten und retten? Interesse?",
+        "answer": "YES"
+      }
+    ],
+    "mapPin": null,
+    "groups": [
+      {
+        "name": "Ortsverband allgemein",
+        "description": "Unsere Aktivitäten sind vielfältig: \r\nSanitäter und Ersthelfer stehen bei vielen öffentlichen Veranstaltungen wie Fußballspiele oder Popkonzerten bereit.\r\nEine abgeschlossene Sanitätsausbildung\r\nreicht für die vielfältigen Aufgaben nicht aus. \r\nSprechfunkausbildung, Frühdefibrillation, Betreuungsdienst-Grundausbildung sowie Technik und Sicherheit und Strom im Einsatz gewährleisten Deine universelle Einsetzbarkeit."
+      },
+      {
+        "name": "Jugendgruppe",
+        "description": "In unseren Kinder- und Jugendgruppen, auch in deiner Nähe, steht Action ganz vorne. Bei uns kannst du einfach mitmachen oder mit planen und entscheiden. Entdecke deine Stärken, denn du kannst die Zukunft gestalten.\r\n\r\nViele Länder – eine Welt:\r\nGeh mit der ASJ auf große Fahrt. Entdecke fremde Länder und Kulturen, z. B. Norwegen, Finnland, Estland oder Italien. Viele Menschen warten darauf, dir ihre Lebensweise und Sprache näher zu bringen.\r\n\r\nDas bieten wir Dir noch:\r\n- Spannende Fahrten und Ferienfreizeiten \r\n- Kinder- und Jugendprojekte ins Leben rufen\r\n- Mitmischen in der Jugendpolitik \r\n- Wettbewerbe\r\n- Ausbildung in Erster Hilfe \r\n- Abenteuerseminare"
+      },
+      {
+        "name": "Sanitätsausbildung",
+        "description": "Sanitätsausbildung"
+      },
+      {
+        "name": "Sanitätsdienst",
+        "description": "Der Sanitätsdienst leistet der betroffenen Bevölkerung im Schadensgebiet Hilfe, führt ärztliche Sofortmaßnahmen zur Abwendung lebensbedrohlicher Zustände und zur Herstellung der Transportfähigkeit durch.\r\n \r\nEr rettet, sichtet, registriert und versorgt Patienten. Der Sanitätsdienst transportiert Patienten und unterstützt andere Einheiten. Bei größeren Schadenslagen betreibt der Sanitätsdienst zusammen mit dem Betreuungsdienst entsprechende Behandlungsplätze."
+      },
+      {
+        "name": "Schnelleinsatzgruppe (SEG)",
+        "description": "Die Schnell-Einsatz-Gruppe (SEG) unterstützt den Rettungsdienst bei Engpässen, insbesondere dann, wenn viele Menschen von einem Unglück oder einer plötzlichen Erkrankung betroffen sind. Die ehrenamtlichen Helfer des Sanitätsdienstes sorgen für die schnelle und kompetente Versorgung bei Verletzungen und Erkrankungen."
+      },
+      {
+        "name": "Rettungshunde",
+        "description": "Du liebst Hunde über alles und möchtest mit Deinen vierbeinigen Freund Menschenleben retten? Hunde haben im Vergleich zum Menschen ein rund eine Million besseres Riechvermögen. Da die Hundenase rechts und links differenzieren kann, können Hunde 'Stereo' riechen. Auf diese Weise ist der Hund fähig, Menschen räumlich zu 'erschnuppern'. Auch wenn der Hund mit solchen Fähigkeiten ausgebildet ist, muss ihm beigebracht werden, wie er diese einsetzen kann, denn er muss in der Lage sein, zwischen Verstorbenen und Lebenden zu unterscheiden, die unter Trümmern z. B. nach Gebäudeeinstürzen schnell gerettet werden müssen, denn die Überlebenschancen sinken von Stunde zu Stunde rapide. Wenn Du mit Deinem Vierbeiner helfen möchtest und einem Team Gleichgesinnter beitreten möchtest, bist Du bei einer Hilfsorganisation mit Rettungshunden gut aufgehoben."
+      }
+    ],
+    "attendanceTimes": [],
+    "volunteers": [],
+    "isPreview": false
+  },
+  {
+    "id": "d4140eae-e216-45c2-a8a3-0333e5fa218c",
+    "name": "Bergwacht",
+    "urlName": "bergwacht",
+    "organizationType": "BW",
+    "description": "Die deutsche Bergwacht ist eine Gemeinschaft des Deutschen Roten Kreuzes (DRK-Bergwacht), hauptsächlich im Bergrettungsdienst tätig und im Naturschutz. Die Hilfsorganisation stellt in Deutschland zu über 90 % den Rettungsdienst aus dem unwegsamen Gelände des Deutschen Mittel- und Hochgebirges sowie an Einsatzschwerpunkten sicher.\r\n\r\nDie Aufgaben der Bergwacht sind vielfältig:\r\n\r\nLeben retten:\r\n* Rettung (und Bergung von tödlich Verunfallten) aus alpinem und unwegsamen Gelände\r\n* Höhenrettung\r\n* Medizinische Versorgung von Verunfallten\r\n* Suche von vermissten Personen\r\n* Rettung aus Lawinen, Schluchten und Höhlen\r\n* Betreuung und Unterstützung von Angehörigen \r\n* Unterstützung des DRK bei Auslandseinsätzen\r\n* Unterstützung des bodengebundenen Rettungsdienstes und Katastrophenschutz\r\n\r\nNatur bewahren:\r\n* Durchführung von Naturschutzstreifen und Naturschutzprojekten\r\n* Unterstützung der Naturschutzwacht und der Naturschutzbeiräte\r\n* Unterstützung der geförderten Naturschutzprojekte (z. B. Wildtiere und Skilauf im Gebirge)\r\n* Öffentlichkeits- und Jugendarbeit im Natur- und Umweltschutz (z.B. Jugendcamp Natur)",
+    "website": "http://www.bergwacht.de",
+    "logo": {
+      "value": "96b19d87-6974-35cc-a710-d1add0e69f57"
+    },
+    "pictures": [
+      {
+        "value": "110df76c-7379-3ddc-a54f-9c34dccc44f9"
+      },
+      {
+        "value": "7b89e7b1-f0a0-3a17-870b-79a767e98bf5"
+      },
+      {
+        "value": "74de8e1b-6c66-319e-a7e3-f1e3dea8ba6d"
+      },
+      {
+        "value": "e1dc2f3c-63e6-3d87-84be-91f6fd9a498b"
+      },
+      {
+        "value": "00fff758-2d4c-3695-b4dc-0e07da1800fd"
+      },
+      {
+        "value": "d3c59b77-52ce-3adc-a829-5c9109ae13d2"
+      }
+    ],
+    "contactPersons": [],
+    "defaultAddress": null,
+    "addresses": [],
+    "questions": [
+      {
+        "questionId": {
+          "value": "8dd070ed-a9de-42af-a017-57a096cf8ec1"
+        },
+        "question": "Möchtest Du Dich in medizinischer Hilfe ausbilden lassen und diese leisten?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "6487dd30-8d1a-4421-b424-2d822cb13e32"
+        },
+        "question": "Du hast keine Angst vor Feuer, nur Respekt. Möchtest Du lernen, wie man es löscht?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "35a19221-8fbf-45fb-9443-65a43aae9013"
+        },
+        "question": "Hast Du Interesse daran, Menschen bei Verkehrsunfällen aus Fahrzeugen zu retten?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "58aca3fe-1783-42ff-81d6-43212d76ce04"
+        },
+        "question": "Kannst Du sehr kurzfristig, ggf. auch innerhalb Deiner Arbeitszeiten, für Einsätze zur Verfügung stehen?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "89342f97-4a0e-457b-994b-5a4851618acc"
+        },
+        "question": "Ist Kochen eine Deiner Leidenschaften?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "e30180fd-bd93-4409-a5f4-8b7eb32948da"
+        },
+        "question": "Möchtest Du aktiv im Naturschutz mitwirken?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "3e3042fa-beca-4d18-bb0c-f6f9a9d8f68f"
+        },
+        "question": "Bist Du handwerklich begabt? Den Umgang mit Kettensäge und Trennschleifer möchtest Du erlernen?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "44d1132f-3407-4387-808d-47368c8d7ffc"
+        },
+        "question": "Hast Du was für Wassersport übrig? Boot fahren, Retten von Menschen aus Gewässern?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "b6788fa7-a360-4b65-8055-193c4c40d1f4"
+        },
+        "question": "Magst Du die Bergwelt? Kannst Du Dir vorstellen, hier Menschen zu retten?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "ae4cdb0c-c35f-42fe-8996-599bfffc8fc2"
+        },
+        "question": "Betreuung von unverletzten Menschen, mit ihnen sprechen, die wichtigsten Dinge des Lebens organisieren und verteilen - Dein Ding?",
+        "answer": "MAYBE"
+      },
+      {
+        "questionId": {
+          "value": "c9204024-1399-4b34-b7a4-6919c09cdc41"
+        },
+        "question": "Möchtest Du aktiv als Besatzungsmitglied eines Rettungs- oder Krankentransportwagens mitfahren?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "0d76d16a-c640-40ec-af4e-2111ad36ee46"
+        },
+        "question": "Bist Du handwerklich interessiert und kannst Strom, Heizung, Wasser, etc. in Notunterkünften oder Betreuungs- und Behandlungseinrichtungen installieren?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "18662fa9-a854-4174-9ea9-37bb08c65484"
+        },
+        "question": "Fährst Du gerne Motorrad oder ATV? Kommst Du auch mit etwas größeren Maschinen klar?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "e025aa16-4b69-42db-9fce-d34792d99a77"
+        },
+        "question": "Gebrochene Knochen schocken Dich nicht - auf die richtige Behandlung kommt es an. Interesse?",
+        "answer": "MAYBE"
+      },
+      {
+        "questionId": {
+          "value": "82113a83-d99a-4a63-89eb-9e5f4268917b"
+        },
+        "question": "Radlader-, Baggerfahren - schwere Baumaschinen fahren?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "4813a002-9c0e-4f29-af0c-26be7c197bea"
+        },
+        "question": "Klettern, Bergsteigen, Verletzte retten - auch aus der Kletterwand? Wäre das etwas für Dich?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "2e82c293-1f6a-4b4c-8366-f773d42f1caf"
+        },
+        "question": "Deinen Hund zum Suchhund ausbilden, mit ihm vermisste Menschen orten und retten? Interesse?",
+        "answer": "NO"
+      }
+    ],
+    "mapPin": null,
+    "groups": [
+      {
+        "name": "Ortsgruppe (Basisausstattung/-Tätigkeit)",
+        "description": "Rettungsdienst\r\nUnsere wesentliche rettungsdienstliche Aufgabe ist, Notfallpatienten im unwegsamen Gelände, das abseits von Straßen und Wegen beginnt, zu finden, fachgerecht zu versorgen und bis zum straßengebundenen Rettungsdienst zu transportieren. Im Winter versorgen wir verunglückte Skifahrer auf Pisten und Loipen fachgerecht und bringen sie mit Schneemobil oder Akja zum nächstgelegenen Übergabeort, den ein Rettungsfahrzeug oder Helikopter erreichen kann.\r\n\r\nNaturschutz\r\nWir engagieren uns bei Pflegemaßnahmen, vom Mähen steiler Wiesen bis zum Ausputzen von Steinbrüchen unter Seilsicherung. Streifengänge durch die ausgedehnten Naturschutzgebiete mit hochsensiblen Hochmooren in unserem Dienstgebiet zwischen Hornisgrinde und Hochkopf gehören ebenso zu unseren Kernaufgaben. Unsere Rundgänge finden nicht nur aus Naturschutzgründen statt, sondern erhalten auch unsere detaillierte Ortskenntnis.\r\n\r\nAusbildung\r\nDie Ausbildung kann jederzeit begonnen werden, dauert in der Regel zwei Jahre und schließt mit einer Prüfung ab. Wer nicht Ski fahren kann, lernt es bei uns. Nach der Prüfung finden regelmäßige Schulungen statt.\r\nUnd wer mehr machen möchte, kann spezielle Lehrgänge zur zusätzlichen Qualifikation besuchen - zum Höhenretter oder Luftretter, für Einsatzfahrten, für Motorsäge-Einsätze oder zum Ausbilder.\r\n\r\nKameradschaft\r\nBei Rettungseinsätzen sind alle Beteiligten oft sehr stark voneinander abhängig und müssen sich auf den Partner absolut verlassen können. Unter anderem deshalb wird Kameradschaft bei uns groß geschrieben. Wir treffen uns auch außerhalb der Bergwacht-Termine zum Biken, Klettern, zu alpinen Ausfahrten, zum Skifahren oder auch einfach mal nur am Stammtisch."
+      }
+    ],
+    "attendanceTimes": [],
+    "volunteers": [],
+    "isPreview": false
+  },
+  {
+    "id": "58b30270-9264-4a3c-a97f-8c52bf22840d",
+    "name": "Bundesverband Rettungshunde (BRH)",
+    "urlName": "bundesverband-rettungshunde-brh",
+    "organizationType": "BRH",
+    "description": "Unser Verein bildet in ehrenamtlicher Arbeit Hunde und Menschen für die Suche nach Verschütteten und Vermissten aus. \r\nDie Ausbildung eines Rettungshundeteams geschieht nicht von selbst. Der Hundeführer muss vom Ausbilder angeleitet werden, die Ausbildung seines Hundes selbst zielführend und erfolgsorientiert durchführen zu können. Hierfür werden von äußerst kompetent besetzten Referaten Seminare und Workshops durchgeführt, welche einheitliche Standards unter ständiger Berücksichtigung moderner Erkenntnisse der Ausbildung von Hund und Mensch setzen und diese nachhaltig in die Staffeln transportieren.\r\n\r\nUnabhängig von Standort und Einsatzgebiet, ob an der Nordseeküste, in den Mittelgebirgen oder im Alpenvorland, alle BRH-Staffeln folgen den gleichen, vom Verband in gemeinsamer Arbeit mit den Staffeln entwickelten Richtlinien, nach welchen im Einsatz gearbeitet wird.",
+    "website": "http://www.bundesverband-rettungshunde.de",
+    "logo": {
+      "value": "f6b68073-0e9d-334f-920d-de7b6b15654e"
+    },
+    "pictures": [
+      {
+        "value": "e99ef892-9d29-3d9f-b44e-6417ce5e7a7c"
+      }
+    ],
+    "contactPersons": [],
+    "defaultAddress": null,
+    "addresses": [],
+    "questions": [
+      {
+        "questionId": {
+          "value": "8dd070ed-a9de-42af-a017-57a096cf8ec1"
+        },
+        "question": "Möchtest Du Dich in medizinischer Hilfe ausbilden lassen und diese leisten?",
+        "answer": "MAYBE"
+      },
+      {
+        "questionId": {
+          "value": "6487dd30-8d1a-4421-b424-2d822cb13e32"
+        },
+        "question": "Du hast keine Angst vor Feuer, nur Respekt. Möchtest Du lernen, wie man es löscht?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "35a19221-8fbf-45fb-9443-65a43aae9013"
+        },
+        "question": "Hast Du Interesse daran, Menschen bei Verkehrsunfällen aus Fahrzeugen zu retten?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "58aca3fe-1783-42ff-81d6-43212d76ce04"
+        },
+        "question": "Kannst Du sehr kurzfristig, ggf. auch innerhalb Deiner Arbeitszeiten, für Einsätze zur Verfügung stehen?",
+        "answer": "MAYBE"
+      },
+      {
+        "questionId": {
+          "value": "89342f97-4a0e-457b-994b-5a4851618acc"
+        },
+        "question": "Ist Kochen eine Deiner Leidenschaften?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "e30180fd-bd93-4409-a5f4-8b7eb32948da"
+        },
+        "question": "Möchtest Du aktiv im Naturschutz mitwirken?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "3e3042fa-beca-4d18-bb0c-f6f9a9d8f68f"
+        },
+        "question": "Bist Du handwerklich begabt? Den Umgang mit Kettensäge und Trennschleifer möchtest Du erlernen?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "44d1132f-3407-4387-808d-47368c8d7ffc"
+        },
+        "question": "Hast Du was für Wassersport übrig? Boot fahren, Retten von Menschen aus Gewässern?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "b6788fa7-a360-4b65-8055-193c4c40d1f4"
+        },
+        "question": "Magst Du die Bergwelt? Kannst Du Dir vorstellen, hier Menschen zu retten?",
+        "answer": "MAYBE"
+      },
+      {
+        "questionId": {
+          "value": "ae4cdb0c-c35f-42fe-8996-599bfffc8fc2"
+        },
+        "question": "Betreuung von unverletzten Menschen, mit ihnen sprechen, die wichtigsten Dinge des Lebens organisieren und verteilen - Dein Ding?",
+        "answer": "MAYBE"
+      },
+      {
+        "questionId": {
+          "value": "c9204024-1399-4b34-b7a4-6919c09cdc41"
+        },
+        "question": "Möchtest Du aktiv als Besatzungsmitglied eines Rettungs- oder Krankentransportwagens mitfahren?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "0d76d16a-c640-40ec-af4e-2111ad36ee46"
+        },
+        "question": "Bist Du handwerklich interessiert und kannst Strom, Heizung, Wasser, etc. in Notunterkünften oder Betreuungs- und Behandlungseinrichtungen installieren?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "18662fa9-a854-4174-9ea9-37bb08c65484"
+        },
+        "question": "Fährst Du gerne Motorrad oder ATV? Kommst Du auch mit etwas größeren Maschinen klar?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "e025aa16-4b69-42db-9fce-d34792d99a77"
+        },
+        "question": "Gebrochene Knochen schocken Dich nicht - auf die richtige Behandlung kommt es an. Interesse?",
+        "answer": "MAYBE"
+      },
+      {
+        "questionId": {
+          "value": "82113a83-d99a-4a63-89eb-9e5f4268917b"
+        },
+        "question": "Radlader-, Baggerfahren - schwere Baumaschinen fahren?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "4813a002-9c0e-4f29-af0c-26be7c197bea"
+        },
+        "question": "Klettern, Bergsteigen, Verletzte retten - auch aus der Kletterwand? Wäre das etwas für Dich?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "2e82c293-1f6a-4b4c-8366-f773d42f1caf"
+        },
+        "question": "Deinen Hund zum Suchhund ausbilden, mit ihm vermisste Menschen orten und retten? Interesse?",
+        "answer": "YES"
+      }
+    ],
+    "mapPin": null,
+    "groups": [
+      {
+        "name": "Staffel (Basisausstattung/-Tätigkeit)",
+        "description": "Rettungshunde sind unsere Kompetenz.\r\n\r\nJedes Jahr werden in Deutschland etwa 100.000 Menschen als vermisst gemeldet!\r\n\r\nViele von ihnen haben sich verlaufen, hatten einen Unfall, bekamen beim Waldspaziergang gesundheitliche Probleme. Es sind oft alte Menschen und sehr viele Kinder (etwa 40.000!) und die meisten haben eines gemeinsam: Sie befinden sich unter Umständen in einer lebensbedrohlichen Situation, aus welcher sie selbst keinen Ausweg finden können.\r\n\r\nWenn Menschen unter Trümmern begraben sind, ist ebenfalls höchste Eile geboten. Die Suchleistung, welche ein ausgebildeter Rettungshund mit seiner Nase vollbringen kann, ist manchen technischen Mitteln weit überlegen bzw. ergänzt deren Einsatz optimal.\r\n\r\nDie Staffel verfolgt ausschließlich und unmittelbar gemeinnützige beziehungsweise mildtätige Zwecke. Sie ist selbstlos tätig.  Alle Aufgaben der Rettungshundestaffel Nördlicher Schwarzwald e.V. werden ehrenamtlich durchgeführt, die Finanzierung erfolgt über Spenden, Förderbeiträge oder Eigenleistungen der Mitglieder. \r\nSie stellt sich mit allen ihr zur Verfügung stehenden Mitteln in den Dienst notleidender Menschen, ohne Ansehen der finanziellen Leistungsfähigkeit. Sie ist neutral gegenüber jeglicher sozialer Stellung, Nationalität, Rasse, Religion und politischer Überzeugung."
+      }
+    ],
+    "attendanceTimes": [],
+    "volunteers": [],
+    "isPreview": false
+  },
+  {
+    "id": "13dcc4f9-d3d8-40c2-9fef-e5a38004995e",
+    "name": "Deutsche Lebens-Rettungs-Gesellschaft (DLRG)",
+    "urlName": "deutsche-lebens-rettungs-gesellschaft-dlrg",
+    "organizationType": "DLRG",
+    "description": "Die Deutsche Lebens-Rettungs-Gesellschaft e.V. (DLRG) ist mit rund 1.250.000 Mitgliedern und Förderern die größte freiwillige Wasserrettungsorganisation der Welt. Seit ihrer Gründung im Jahr 1913 hat sie es sich zur Aufgabe gemacht, Menschen vor dem Ertrinken zu bewahren. \r\nDie DLRG ist die Nummer Eins in der Schwimm- und Rettungsschwimmausbildung in Deutschland. Von 1950 bis zum Jahr 2013 hat die DLRG knapp 22 Millionen Schwimmprüfungen und über viereinhalb Millionen Rettungsschwimmprüfungen abgenommen. In über 2.000 örtlichen Gliederungen leisten die ehrenamtlichen Helfer pro Jahr über sieben Millionen Stunden freiwillige Arbeit für die Menschen in Deutschland.\r\n\r\nDie Kernaufgaben der DLRG sind:\r\n* Schwimmausbildung\r\n* Aufklärung\r\n* Wasserrettungsdienst\r\n\r\nRund 50.000 Mitglieder im Wasserrettungsdienst der DLRG wachen jährlich über 2,2 Millionen Stunden über die Sicherheit von Badegästen und Wassersportlern. Im Jahr 2013 retteten die Wachgänger mit ihrem humanitären Einsatz 686 Menschen vor dem nassen Tod. Dennoch ertranken in Deutschland 446 Menschen im gleichen Zeitraum. Weltweit sterben etwa eine halbe Million Menschen jährlich im Wasser.",
+    "website": "http://www.dlrg.de",
+    "logo": {
+      "value": "bdf3f9e3-6a73-3d24-9b62-00a3131e06ee"
+    },
+    "pictures": [
+      {
+        "value": "9d1289c5-659f-3373-83ac-9e0f68e10027"
+      },
+      {
+        "value": "03381ab6-15ea-34e5-baf6-4169f19bdfdf"
+      },
+      {
+        "value": "5c821b2e-5d53-3481-82d5-0a5ed2459f70"
+      },
+      {
+        "value": "23a90f1a-4adf-354c-9bd7-46061a48280b"
+      },
+      {
+        "value": "272c61e8-3ec8-32eb-92fe-b17dfcc877ec"
+      },
+      {
+        "value": "3e8a66d7-3ced-359f-a258-0e3e9229a76f"
+      },
+      {
+        "value": "2a712bc9-6465-31d5-8d37-dd003a5b7ebb"
+      },
+      {
+        "value": "606c0afd-53b0-322c-86d6-693dd78020fd"
+      },
+      {
+        "value": "82d1d009-2752-3e38-b1c3-80d65f985e7a"
+      },
+      {
+        "value": "62fd6cb8-ef5b-3c7e-a140-7be2c40dd760"
+      },
+      {
+        "value": "474ab04d-584a-3f3c-bc44-82243f6dda71"
+      },
+      {
+        "value": "1b4a5e0c-c84a-3992-91a4-9c3228e1da73"
+      },
+      {
+        "value": "6594172f-1d1d-3a8f-8dd0-a649db45d634"
+      },
+      {
+        "value": "5935b87f-38f5-3dd4-a52a-a37416a72c10"
+      },
+      {
+        "value": "87b9e1c8-4c65-3d9c-a4d4-68a15465036a"
+      },
+      {
+        "value": "da8affd1-0a30-38b3-9294-c84edd6a5cee"
+      }
+    ],
+    "contactPersons": [],
+    "defaultAddress": null,
+    "addresses": [],
+    "questions": [
+      {
+        "questionId": {
+          "value": "8dd070ed-a9de-42af-a017-57a096cf8ec1"
+        },
+        "question": "Möchtest Du Dich in medizinischer Hilfe ausbilden lassen und diese leisten?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "6487dd30-8d1a-4421-b424-2d822cb13e32"
+        },
+        "question": "Du hast keine Angst vor Feuer, nur Respekt. Möchtest Du lernen, wie man es löscht?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "35a19221-8fbf-45fb-9443-65a43aae9013"
+        },
+        "question": "Hast Du Interesse daran, Menschen bei Verkehrsunfällen aus Fahrzeugen zu retten?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "58aca3fe-1783-42ff-81d6-43212d76ce04"
+        },
+        "question": "Kannst Du sehr kurzfristig, ggf. auch innerhalb Deiner Arbeitszeiten, für Einsätze zur Verfügung stehen?",
+        "answer": "MAYBE"
+      },
+      {
+        "questionId": {
+          "value": "89342f97-4a0e-457b-994b-5a4851618acc"
+        },
+        "question": "Ist Kochen eine Deiner Leidenschaften?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "e30180fd-bd93-4409-a5f4-8b7eb32948da"
+        },
+        "question": "Möchtest Du aktiv im Naturschutz mitwirken?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "3e3042fa-beca-4d18-bb0c-f6f9a9d8f68f"
+        },
+        "question": "Bist Du handwerklich begabt? Den Umgang mit Kettensäge und Trennschleifer möchtest Du erlernen?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "44d1132f-3407-4387-808d-47368c8d7ffc"
+        },
+        "question": "Hast Du was für Wassersport übrig? Boot fahren, Retten von Menschen aus Gewässern?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "b6788fa7-a360-4b65-8055-193c4c40d1f4"
+        },
+        "question": "Magst Du die Bergwelt? Kannst Du Dir vorstellen, hier Menschen zu retten?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "ae4cdb0c-c35f-42fe-8996-599bfffc8fc2"
+        },
+        "question": "Betreuung von unverletzten Menschen, mit ihnen sprechen, die wichtigsten Dinge des Lebens organisieren und verteilen - Dein Ding?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "c9204024-1399-4b34-b7a4-6919c09cdc41"
+        },
+        "question": "Möchtest Du aktiv als Besatzungsmitglied eines Rettungs- oder Krankentransportwagens mitfahren?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "0d76d16a-c640-40ec-af4e-2111ad36ee46"
+        },
+        "question": "Bist Du handwerklich interessiert und kannst Strom, Heizung, Wasser, etc. in Notunterkünften oder Betreuungs- und Behandlungseinrichtungen installieren?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "18662fa9-a854-4174-9ea9-37bb08c65484"
+        },
+        "question": "Fährst Du gerne Motorrad oder ATV? Kommst Du auch mit etwas größeren Maschinen klar?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "e025aa16-4b69-42db-9fce-d34792d99a77"
+        },
+        "question": "Gebrochene Knochen schocken Dich nicht - auf die richtige Behandlung kommt es an. Interesse?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "82113a83-d99a-4a63-89eb-9e5f4268917b"
+        },
+        "question": "Radlader-, Baggerfahren - schwere Baumaschinen fahren?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "4813a002-9c0e-4f29-af0c-26be7c197bea"
+        },
+        "question": "Klettern, Bergsteigen, Verletzte retten - auch aus der Kletterwand? Wäre das etwas für Dich?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "2e82c293-1f6a-4b4c-8366-f773d42f1caf"
+        },
+        "question": "Deinen Hund zum Suchhund ausbilden, mit ihm vermisste Menschen orten und retten? Interesse?",
+        "answer": "NO"
+      }
+    ],
+    "mapPin": null,
+    "groups": [
+      {
+        "name": "DLRG-Ortsgruppe",
+        "description": "Die DLRG unterteilt ihre Ziele und Aufgaben in Hauptaufgaben und zusätzliche Aufgaben. Als ihre Hauptaufgabe sieht sie die Bekämpfung des Ertrinkungstodes. Dies will sie durch frühzeitige und fortgesetzte Information über Gefahren und sicherheitsbewusstes Verhalten im und am Wasser erreichen. Des Weiteren bildet sie Personen in der Selbstrettung, im Schwimmen und im Rettungsschwimmen aus, um einen sicheren Aufenthalt im Wasser zu gewährleisten."
+      },
+      {
+        "name": "Jugendgruppe",
+        "description": "Ziele der DLRG-Jugend sind unter anderem, die Interessen von Kindern und Jugendlichen zu vertreten und einen Beitrag zur Entwicklung junger Menschen zu leisten. Auf spielerische Art und Weise versucht sie, ihre Mitglieder an die Aufgaben, Ausbildungen und die Technik der DLRG heranzuführen. Die DLRG-Jugend veranstaltet zum Beispiel auch Wettkämpfe, Bezirks- sowie Landesjugendtreffen, und bietet Seminare wie beispielsweise die Ausbildung zum Erwerb der Jugendleitercard an."
+      },
+      {
+        "name": "Wettkampfsport",
+        "description": "Auf allen Ebenen der DLRG finden regelmäßig Wettkämpfe statt. Bei den deutschen Meisterschaften, welche die DLRG-Jugend im Auftrag des DLRG-Hauptverbandes ausrichtet, wird der jeweils beste Rettungsschwimmer in den verschiedenen Altersklassen ermittelt. Das Wettkampfsystem der DLRG ist in Altersklassen und nach Geschlechtern unterteilt. Es gibt die Altersklassen AK 12, AK 13/14, AK 15/16, AK 17/18, AK Offen sowie bei Mannschaftswettkämpfen die AK 100. Hierbei müssen alle Schwimmer dieser Mannschaft zusammengezählt mindestens 100 Jahre alt sein."
+      },
+      {
+        "name": "Erste-Hilfe-Ausbildung",
+        "description": "Sich in Erste Hilfe ausbilden zu lassen, heißt, sich fit zu machen für viele alltägliche Situationen in denen schnelle Hilfe nötig ist, sei es bei einem Fahrrad- oder Treppensturz, bei einer Schnitt- oder Brandverletzung oder bei einem Unfall im und am Wasser.\r\nWer helfen kann und im Falle eines Falles auch fachgerecht hilft, der hat danach bestimmt ein gutes Gefühl. Wir qualifizieren Dich zum Ausbilder, so dass Du eigenständig folgende Ausbildungen leiten kannst:\r\n- Lebensrettende Sofortmaßnahmen (LSM)\r\n- Erste-Hilfe-Lehrgänge\r\n- Erste-Hilfe-Training \r\n- Sanitätsausbildung Block A"
+      },
+      {
+        "name": "Rettungsschwimmausbildung",
+        "description": "Das Rettungsschwimmen basiert auf der Schwimmausbildung und stellt damit einen weiteren zentralen Punkt der Kernaufgaben in der Ausbildung dar."
+      },
+      {
+        "name": "Sanitätsausbildung",
+        "description": "Die Mitglieder der Ortsgruppe können im Rahmen des Einsatzdienstes zum Sanitätshelfer bzw. zum Sanitäter ausgebildet werden."
+      },
+      {
+        "name": "Schwimmausbildung",
+        "description": "Vorbereitung auf die Schwimmausbildung:\r\n- Frühschwimmer (Seepferdchen)\r\nFolgende Schwimmabzeichen können absolviert werden:\r\n- Jugendschwimmabzeichen (Bronze, Silber und Gold)\r\n- ab 18 Jahren: Schwimmpass"
+      },
+      {
+        "name": "Tauchgruppe",
+        "description": "Das Einsatztauchen ist eine Kernaufgabe der DLRG. Die Einsatztaucher kommen in Einsatzgruppen für den Rettungsdienst und der Gefahrenabwehr zum Einsatz. Sie stehen zur schnellen Rettung von verunfallten Menschen am und im Wasser zur Verfügung. Ebenso erfüllen sie Aufgaben im Umweltschutz oder in der vorbeugenden Gefahrenabwehr. So kommt es häufiger vor, dass die Einsatztaucher der DLRG gerufen werden, wenn es um die Unterstützung bei technischen Hilfeleistungen am oder im Wasser geht."
+      },
+      {
+        "name": "Wasserrettungsgruppe (Bootsgruppe)",
+        "description": "Motorrettungsboote sind für die Wasserrettung der DLRG ein unverzichtbares Hilfsmittel zur Beförderung von Einsatzkräften oder zum Transport von Material. Die DLRG stellt als taktische Einheit im Wasserrettungsdienst selbständig einsetzbare Wasserrettungsgruppen und im besonderen Schnelle Einsatzgruppen - Wasserrettung auf."
+      },
+      {
+        "name": "Rettungsschwimmgruppe",
+        "description": "Wir bieten die Aus- und Fortbildung zum professionellen Rettungsschwimmer an. Das \r\nDeutsche Rettungsschwimmabzeichen von Bronze bis Gold kann absolviert werden.\r\nIn Wettkämpfen kannst Du Dich beweisen!"
+      },
+      {
+        "name": "Sanitätsdienst/Sanitätsgruppe",
+        "description": "Die  Fachgruppe Sanitätsdienst hat als Teileinheit des Wasserrettungszuges die Aufgabe, die sanitätsdienstliche Versorgung betroffener Personen oder Personen gruppen sicherzustellen. Bei Bedarf übernimmt sie auch sanitätsdienstliche Transportaufgaben."
+      }
+    ],
+    "attendanceTimes": [],
+    "volunteers": [],
+    "isPreview": false
+  },
+  {
+    "id": "9359abc5-78d9-4139-9e31-dc539b54d84c",
+    "name": "Deutscher Rettungshunde Verein",
+    "urlName": "deutscher-rettungshunde-verein",
+    "organizationType": "DRV",
+    "description": "",
+    "website": null,
+    "logo": {
+      "value": "f37beda2-9dc2-34b5-825c-b9f494038018"
+    },
+    "pictures": [],
+    "contactPersons": [],
+    "defaultAddress": null,
+    "addresses": [],
+    "questions": [
+      {
+        "questionId": {
+          "value": "8dd070ed-a9de-42af-a017-57a096cf8ec1"
+        },
+        "question": "Möchtest Du Dich in medizinischer Hilfe ausbilden lassen und diese leisten?",
+        "answer": "MAYBE"
+      },
+      {
+        "questionId": {
+          "value": "6487dd30-8d1a-4421-b424-2d822cb13e32"
+        },
+        "question": "Du hast keine Angst vor Feuer, nur Respekt. Möchtest Du lernen, wie man es löscht?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "35a19221-8fbf-45fb-9443-65a43aae9013"
+        },
+        "question": "Hast Du Interesse daran, Menschen bei Verkehrsunfällen aus Fahrzeugen zu retten?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "58aca3fe-1783-42ff-81d6-43212d76ce04"
+        },
+        "question": "Kannst Du sehr kurzfristig, ggf. auch innerhalb Deiner Arbeitszeiten, für Einsätze zur Verfügung stehen?",
+        "answer": "MAYBE"
+      },
+      {
+        "questionId": {
+          "value": "89342f97-4a0e-457b-994b-5a4851618acc"
+        },
+        "question": "Ist Kochen eine Deiner Leidenschaften?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "e30180fd-bd93-4409-a5f4-8b7eb32948da"
+        },
+        "question": "Möchtest Du aktiv im Naturschutz mitwirken?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "3e3042fa-beca-4d18-bb0c-f6f9a9d8f68f"
+        },
+        "question": "Bist Du handwerklich begabt? Den Umgang mit Kettensäge und Trennschleifer möchtest Du erlernen?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "44d1132f-3407-4387-808d-47368c8d7ffc"
+        },
+        "question": "Hast Du was für Wassersport übrig? Boot fahren, Retten von Menschen aus Gewässern?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "b6788fa7-a360-4b65-8055-193c4c40d1f4"
+        },
+        "question": "Magst Du die Bergwelt? Kannst Du Dir vorstellen, hier Menschen zu retten?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "ae4cdb0c-c35f-42fe-8996-599bfffc8fc2"
+        },
+        "question": "Betreuung von unverletzten Menschen, mit ihnen sprechen, die wichtigsten Dinge des Lebens organisieren und verteilen - Dein Ding?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "c9204024-1399-4b34-b7a4-6919c09cdc41"
+        },
+        "question": "Möchtest Du aktiv als Besatzungsmitglied eines Rettungs- oder Krankentransportwagens mitfahren?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "0d76d16a-c640-40ec-af4e-2111ad36ee46"
+        },
+        "question": "Bist Du handwerklich interessiert und kannst Strom, Heizung, Wasser, etc. in Notunterkünften oder Betreuungs- und Behandlungseinrichtungen installieren?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "18662fa9-a854-4174-9ea9-37bb08c65484"
+        },
+        "question": "Fährst Du gerne Motorrad oder ATV? Kommst Du auch mit etwas größeren Maschinen klar?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "e025aa16-4b69-42db-9fce-d34792d99a77"
+        },
+        "question": "Gebrochene Knochen schocken Dich nicht - auf die richtige Behandlung kommt es an. Interesse?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "82113a83-d99a-4a63-89eb-9e5f4268917b"
+        },
+        "question": "Radlader-, Baggerfahren - schwere Baumaschinen fahren?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "4813a002-9c0e-4f29-af0c-26be7c197bea"
+        },
+        "question": "Klettern, Bergsteigen, Verletzte retten - auch aus der Kletterwand? Wäre das etwas für Dich?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "2e82c293-1f6a-4b4c-8366-f773d42f1caf"
+        },
+        "question": "Deinen Hund zum Suchhund ausbilden, mit ihm vermisste Menschen orten und retten? Interesse?",
+        "answer": "NO"
+      }
+    ],
+    "mapPin": null,
+    "groups": [
+      {
+        "name": "Staffel (Basisausstattung/-Tätigkeit)",
+        "description": "Rettungshunde sind unsere Kompetenz.\r\n\r\nJedes Jahr werden in Deutschland etwa 100.000 Menschen als vermisst gemeldet!\r\n\r\nViele von ihnen haben sich verlaufen, hatten einen Unfall, bekamen beim Waldspaziergang gesundheitliche Probleme. Es sind oft alte Menschen und sehr viele Kinder (etwa 40.000!) und die meisten haben eines gemeinsam: Sie befinden sich unter Umständen in einer lebensbedrohlichen Situation, aus welcher sie selbst keinen Ausweg finden können.\r\n\r\nWenn Menschen unter Trümmern begraben sind, ist ebenfalls höchste Eile geboten. Die Suchleistung, welche ein ausgebildeter Rettungshund mit seiner Nase vollbringen kann, ist manchen technischen Mitteln weit überlegen bzw. ergänzt deren Einsatz optimal."
+      }
+    ],
+    "attendanceTimes": [],
+    "volunteers": [],
+    "isPreview": false
+  },
+  {
+    "id": "d48f6903-6599-4bc5-9b58-240fa4fb6415",
+    "name": "Deutsches Rotes Kreuz (DRK)",
+    "urlName": "deutsches-rotes-kreuz-drk",
+    "organizationType": "DRK",
+    "description": "Das Deutsche Rote Kreuz rettet Menschen, hilft in Notlagen, bietet Menschen eine Gemeinschaft, steht den Armen und Bedürftigen bei und wacht über das humanitäre Völkerrecht - in Deutschland und in der ganzen Welt. Entdecken Sie die Vielfalt des Deutschen Roten Kreuzes!",
+    "website": "http://www.drk.de",
+    "logo": {
+      "value": "83def0cc-f8a7-3f6f-bad4-3a3be954889d"
+    },
+    "pictures": [],
+    "contactPersons": [],
+    "defaultAddress": null,
+    "addresses": [],
+    "questions": [
+      {
+        "questionId": {
+          "value": "8dd070ed-a9de-42af-a017-57a096cf8ec1"
+        },
+        "question": "Möchtest Du Dich in medizinischer Hilfe ausbilden lassen und diese leisten?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "6487dd30-8d1a-4421-b424-2d822cb13e32"
+        },
+        "question": "Du hast keine Angst vor Feuer, nur Respekt. Möchtest Du lernen, wie man es löscht?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "35a19221-8fbf-45fb-9443-65a43aae9013"
+        },
+        "question": "Hast Du Interesse daran, Menschen bei Verkehrsunfällen aus Fahrzeugen zu retten?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "58aca3fe-1783-42ff-81d6-43212d76ce04"
+        },
+        "question": "Kannst Du sehr kurzfristig, ggf. auch innerhalb Deiner Arbeitszeiten, für Einsätze zur Verfügung stehen?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "89342f97-4a0e-457b-994b-5a4851618acc"
+        },
+        "question": "Ist Kochen eine Deiner Leidenschaften?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "e30180fd-bd93-4409-a5f4-8b7eb32948da"
+        },
+        "question": "Möchtest Du aktiv im Naturschutz mitwirken?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "3e3042fa-beca-4d18-bb0c-f6f9a9d8f68f"
+        },
+        "question": "Bist Du handwerklich begabt? Den Umgang mit Kettensäge und Trennschleifer möchtest Du erlernen?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "44d1132f-3407-4387-808d-47368c8d7ffc"
+        },
+        "question": "Hast Du was für Wassersport übrig? Boot fahren, Retten von Menschen aus Gewässern?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "b6788fa7-a360-4b65-8055-193c4c40d1f4"
+        },
+        "question": "Magst Du die Bergwelt? Kannst Du Dir vorstellen, hier Menschen zu retten?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "ae4cdb0c-c35f-42fe-8996-599bfffc8fc2"
+        },
+        "question": "Betreuung von unverletzten Menschen, mit ihnen sprechen, die wichtigsten Dinge des Lebens organisieren und verteilen - Dein Ding?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "c9204024-1399-4b34-b7a4-6919c09cdc41"
+        },
+        "question": "Möchtest Du aktiv als Besatzungsmitglied eines Rettungs- oder Krankentransportwagens mitfahren?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "0d76d16a-c640-40ec-af4e-2111ad36ee46"
+        },
+        "question": "Bist Du handwerklich interessiert und kannst Strom, Heizung, Wasser, etc. in Notunterkünften oder Betreuungs- und Behandlungseinrichtungen installieren?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "18662fa9-a854-4174-9ea9-37bb08c65484"
+        },
+        "question": "Fährst Du gerne Motorrad oder ATV? Kommst Du auch mit etwas größeren Maschinen klar?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "e025aa16-4b69-42db-9fce-d34792d99a77"
+        },
+        "question": "Gebrochene Knochen schocken Dich nicht - auf die richtige Behandlung kommt es an. Interesse?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "82113a83-d99a-4a63-89eb-9e5f4268917b"
+        },
+        "question": "Radlader-, Baggerfahren - schwere Baumaschinen fahren?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "4813a002-9c0e-4f29-af0c-26be7c197bea"
+        },
+        "question": "Klettern, Bergsteigen, Verletzte retten - auch aus der Kletterwand? Wäre das etwas für Dich?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "2e82c293-1f6a-4b4c-8366-f773d42f1caf"
+        },
+        "question": "Deinen Hund zum Suchhund ausbilden, mit ihm vermisste Menschen orten und retten? Interesse?",
+        "answer": "NO"
+      }
+    ],
+    "mapPin": null,
+    "groups": [
+      {
+        "name": "Ortsverein allgemein",
+        "description": "Spezialisten für jeden Fall: Das Ehrenamt des DRK gliedert sich in fünf Gemeinschaften. Ob bei den Bereitschaften, der Berg- oder Wasserwacht oder im Bereich Soziale Dienste - für jeden, der helfen möchte, ist beim DRK etwas dabei. Und für diejenigen, die schon ganz früh aktiv werden möchten, gibt es im Jugendrotkreuz viel zu erleben und zu bewegen.\r\n\r\nIn allen kleinen und großen Notlagen können sich die Menschen auf unsere Bereitschaften verlassen - angefangen von der Erste-Hilfe-Ausbildung über die Versorgung von Verletzten nach Unfällen bis hin zum Suchdienst. Mehr als 170.000 Menschen sind hier schon aktiv - werden auch Sie es!"
+      },
+      {
+        "name": "Jugendgruppe",
+        "description": "Das Deutsche Jugendrotkreuz (JRK) ist der eigenständige Jugendverband des Deutschen Roten Kreuzes. Über 113.000 Kinder und Jugendliche im Alter von 6 bis 27 Jahren engagieren sich ehrenamtlich in über 5.500 JRK-Gruppen. Sie treffen sich zu unterschiedlichen Programmen und vielen gemeinsamen Aktivitäten. \r\n\r\nOb Schulsanitätsdienst, Kampagnen-Arbeit, Streitschlichtung oder Ferienfreizeit: Jugendrotkreuzler/-innen setzen sich für andere Menschen ein, beschäftigen sich mit den Themen Gesundheit, Umwelt, Frieden und Völkerverständigung und mischen bei politischen Entscheidungen mit."
+      },
+      {
+        "name": "Sanitätsausbildung",
+        "description": "Wir bilden unsere haupt- und ehrenamtlichen Mitarbeiter selbstverständlich selbst aus und bieten neben der sanitätsdienstlichen Ausbildung auch die Möglichkeit der Ausbildung zum(zur) Rettungssanitäter/in."
+      },
+      {
+        "name": "Sanitätsdienst",
+        "description": "Der Sanitätsdienst leistet der betroffenen Bevölkerung im Schadensgebiet Hilfe, führt ärztliche Sofortmaßnahmen zur Abwendung lebensbedrohlicher Zustände und zur Herstellung der Transportfähigkeit durch.\r\n \r\nEr rettet, sichtet, registriert und versorgt Patienten. Der Sanitätsdienst transportiert Patienten und unterstützt andere Einheiten. Bei größeren Schadenslagen betreibt der Sanitätsdienst zusammen mit dem Betreuungsdienst entsprechende Behandlungsplätze."
+      },
+      {
+        "name": "Schnelleinsatzgruppe (SEG)",
+        "description": "Die Schnell-Einsatz-Gruppe (SEG) unterstützt den Rettungsdienst bei Engpässen, insbesondere dann, wenn viele Menschen von einem Unglück oder einer plötzlichen Erkrankung betroffen sind. Die ehrenamtlichen Helfer des Sanitätsdienstes sorgen für die schnelle und kompetente Versorgung bei Verletzungen und Erkrankungen."
+      }
+    ],
+    "attendanceTimes": [],
+    "volunteers": [],
+    "isPreview": false
+  },
+  {
+    "id": "ce68602f-0df2-475c-b762-728b0ede5727",
+    "name": "Freiwillige Feuerwehr",
+    "urlName": "freiwillige-feuerwehr",
+    "organizationType": "FF",
+    "description": "Die Feuerwehren erfüllen eine wichtige Aufgabe in unserer Gesellschaft. Brandbekämpfung, technische Hilfeleistung. Rettung von Menschen und Tieren aus lebensbedrohlichen Lagen und die aktive Mitwirkung im Katastrophenschutz zählen zu unseren Einsatzbereichen.\r\nNeben diesen Hauptaufgaben steht in unserer ehrenamtlichen Tätigkeit die kameradschaftliche Pflege ganz vorne. Hier werden sowohl Aufgaben im kulturellem Bereich als auch Jugendarbeit wahrgenommen. Nachwuchsförderung, Brandschutzerziehung und -aufklärung an Schulen und Kindergärten in unserer Gemeinde ist uns ebenfalls sehr wichtig.",
+    "website": null,
+    "logo": {
+      "value": "689dec2e-6e76-3806-b0f9-1b256dafd592"
+    },
+    "pictures": [
+      {
+        "value": "2e598bba-c382-3402-9caa-45ae935702dd"
+      },
+      {
+        "value": "8310361e-0a70-3161-bb21-7222799775ef"
+      },
+      {
+        "value": "d76c8169-62c3-3c2a-a267-8aa38d273a13"
+      },
+      {
+        "value": "d3c2ca42-bea1-30a2-8e48-d38ee9a6a46e"
+      },
+      {
+        "value": "c537d4a6-4ca0-3b2e-8dd8-a6e911c94509"
+      }
+    ],
+    "contactPersons": [],
+    "defaultAddress": null,
+    "addresses": [],
+    "questions": [
+      {
+        "questionId": {
+          "value": "8dd070ed-a9de-42af-a017-57a096cf8ec1"
+        },
+        "question": "Möchtest Du Dich in medizinischer Hilfe ausbilden lassen und diese leisten?",
+        "answer": "MAYBE"
+      },
+      {
+        "questionId": {
+          "value": "6487dd30-8d1a-4421-b424-2d822cb13e32"
+        },
+        "question": "Du hast keine Angst vor Feuer, nur Respekt. Möchtest Du lernen, wie man es löscht?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "35a19221-8fbf-45fb-9443-65a43aae9013"
+        },
+        "question": "Hast Du Interesse daran, Menschen bei Verkehrsunfällen aus Fahrzeugen zu retten?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "58aca3fe-1783-42ff-81d6-43212d76ce04"
+        },
+        "question": "Kannst Du sehr kurzfristig, ggf. auch innerhalb Deiner Arbeitszeiten, für Einsätze zur Verfügung stehen?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "89342f97-4a0e-457b-994b-5a4851618acc"
+        },
+        "question": "Ist Kochen eine Deiner Leidenschaften?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "e30180fd-bd93-4409-a5f4-8b7eb32948da"
+        },
+        "question": "Möchtest Du aktiv im Naturschutz mitwirken?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "3e3042fa-beca-4d18-bb0c-f6f9a9d8f68f"
+        },
+        "question": "Bist Du handwerklich begabt? Den Umgang mit Kettensäge und Trennschleifer möchtest Du erlernen?",
+        "answer": "MAYBE"
+      },
+      {
+        "questionId": {
+          "value": "44d1132f-3407-4387-808d-47368c8d7ffc"
+        },
+        "question": "Hast Du was für Wassersport übrig? Boot fahren, Retten von Menschen aus Gewässern?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "b6788fa7-a360-4b65-8055-193c4c40d1f4"
+        },
+        "question": "Magst Du die Bergwelt? Kannst Du Dir vorstellen, hier Menschen zu retten?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "ae4cdb0c-c35f-42fe-8996-599bfffc8fc2"
+        },
+        "question": "Betreuung von unverletzten Menschen, mit ihnen sprechen, die wichtigsten Dinge des Lebens organisieren und verteilen - Dein Ding?",
+        "answer": "MAYBE"
+      },
+      {
+        "questionId": {
+          "value": "c9204024-1399-4b34-b7a4-6919c09cdc41"
+        },
+        "question": "Möchtest Du aktiv als Besatzungsmitglied eines Rettungs- oder Krankentransportwagens mitfahren?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "0d76d16a-c640-40ec-af4e-2111ad36ee46"
+        },
+        "question": "Bist Du handwerklich interessiert und kannst Strom, Heizung, Wasser, etc. in Notunterkünften oder Betreuungs- und Behandlungseinrichtungen installieren?",
+        "answer": "MAYBE"
+      },
+      {
+        "questionId": {
+          "value": "18662fa9-a854-4174-9ea9-37bb08c65484"
+        },
+        "question": "Fährst Du gerne Motorrad oder ATV? Kommst Du auch mit etwas größeren Maschinen klar?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "e025aa16-4b69-42db-9fce-d34792d99a77"
+        },
+        "question": "Gebrochene Knochen schocken Dich nicht - auf die richtige Behandlung kommt es an. Interesse?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "82113a83-d99a-4a63-89eb-9e5f4268917b"
+        },
+        "question": "Radlader-, Baggerfahren - schwere Baumaschinen fahren?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "4813a002-9c0e-4f29-af0c-26be7c197bea"
+        },
+        "question": "Klettern, Bergsteigen, Verletzte retten - auch aus der Kletterwand? Wäre das etwas für Dich?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "2e82c293-1f6a-4b4c-8366-f773d42f1caf"
+        },
+        "question": "Deinen Hund zum Suchhund ausbilden, mit ihm vermisste Menschen orten und retten? Interesse?",
+        "answer": "NO"
+      }
+    ],
+    "mapPin": null,
+    "groups": [
+      {
+        "name": "Abteilung allgemein",
+        "description": "Entgegen der weitverbreiteten Meinung, in den meisten Städten Deutschlands würde es eine Berufsfeuerwehr geben, wird der Brandschutz in Deutschland hauptsächlich durch freiwillige Kräfte sichergestellt. Bei einer Gesamtzahl von 2.074 Städten in Deutschland existieren lediglich knapp über 100 dieser Städte Berufsfeuerwehren. In allen diesen Städten gibt es zur Verstärkung der Berufsfeuerwehr auch freiwillige Abteilungen."
+      },
+      {
+        "name": "Jugendgruppe",
+        "description": "Die Jugendfeuerwehrarbeit hat das Ziel, Kinder und Jugendliche für den Einsatz in der Feuerwehr vorzubereiten, so dass sie nach Erfüllung der rechtlichen Voraussetzungen bei entsprechendem Alter und Qualifikation in der Einsatzabteilung der Freiwilligen Feuerwehr eingesetzt werden können. Sie dürfen jedoch bis zu einem bestimmten Alter nicht in den Gefahrenbereich von Feuerwehreinsätzen eingesetzt werden. Zudem nimmt die Jugendfeuerwehr wichtige Aufgaben im Bereich der allgemeinen Jugendarbeit wahr, wo sie durch verschiedenste Freizeitmaßnahmen bei der Betreuung von Kindern und Jugendlichen mitwirkt."
+      }
+    ],
+    "attendanceTimes": [],
+    "volunteers": [],
+    "isPreview": false
+  },
+  {
+    "id": "171c3dce-78fa-4001-9fef-6d419306688a",
+    "name": "Johanniter-Unfall-Hilfe (JUH)",
+    "urlName": "johanniter-unfall-hilfe-juh",
+    "organizationType": "JUH",
+    "description": "Die Johanniter-Unfall-Hilfe e. V. ist seit über 60 Jahren in den unterschiedlichsten sozialen und karitativen Bereichen aktiv. Sie steht in der Tradition des evangelischen Johanniterordens, dessen wichtigstes Anliegen seit Jahrhunderten die Hilfe von Mensch zu Mensch ist. Mit mehr als 14 000 hauptamtlichen Mitarbeitern, etwa 30 000 ehrenamtlichen Aktiven und über 1,4 Millionen Fördermitgliedern ist die Johanniter-Unfall-Hilfe eine der größten Hilfsorganisationen Europas",
+    "website": "http://www.johanniter.de",
+    "logo": {
+      "value": "0793ead8-98c8-34b9-80bc-4e7b3613ea30"
+    },
+    "pictures": [],
+    "contactPersons": [],
+    "defaultAddress": null,
+    "addresses": [],
+    "questions": [
+      {
+        "questionId": {
+          "value": "8dd070ed-a9de-42af-a017-57a096cf8ec1"
+        },
+        "question": "Möchtest Du Dich in medizinischer Hilfe ausbilden lassen und diese leisten?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "6487dd30-8d1a-4421-b424-2d822cb13e32"
+        },
+        "question": "Du hast keine Angst vor Feuer, nur Respekt. Möchtest Du lernen, wie man es löscht?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "35a19221-8fbf-45fb-9443-65a43aae9013"
+        },
+        "question": "Hast Du Interesse daran, Menschen bei Verkehrsunfällen aus Fahrzeugen zu retten?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "58aca3fe-1783-42ff-81d6-43212d76ce04"
+        },
+        "question": "Kannst Du sehr kurzfristig, ggf. auch innerhalb Deiner Arbeitszeiten, für Einsätze zur Verfügung stehen?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "89342f97-4a0e-457b-994b-5a4851618acc"
+        },
+        "question": "Ist Kochen eine Deiner Leidenschaften?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "e30180fd-bd93-4409-a5f4-8b7eb32948da"
+        },
+        "question": "Möchtest Du aktiv im Naturschutz mitwirken?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "3e3042fa-beca-4d18-bb0c-f6f9a9d8f68f"
+        },
+        "question": "Bist Du handwerklich begabt? Den Umgang mit Kettensäge und Trennschleifer möchtest Du erlernen?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "44d1132f-3407-4387-808d-47368c8d7ffc"
+        },
+        "question": "Hast Du was für Wassersport übrig? Boot fahren, Retten von Menschen aus Gewässern?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "b6788fa7-a360-4b65-8055-193c4c40d1f4"
+        },
+        "question": "Magst Du die Bergwelt? Kannst Du Dir vorstellen, hier Menschen zu retten?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "ae4cdb0c-c35f-42fe-8996-599bfffc8fc2"
+        },
+        "question": "Betreuung von unverletzten Menschen, mit ihnen sprechen, die wichtigsten Dinge des Lebens organisieren und verteilen - Dein Ding?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "c9204024-1399-4b34-b7a4-6919c09cdc41"
+        },
+        "question": "Möchtest Du aktiv als Besatzungsmitglied eines Rettungs- oder Krankentransportwagens mitfahren?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "0d76d16a-c640-40ec-af4e-2111ad36ee46"
+        },
+        "question": "Bist Du handwerklich interessiert und kannst Strom, Heizung, Wasser, etc. in Notunterkünften oder Betreuungs- und Behandlungseinrichtungen installieren?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "18662fa9-a854-4174-9ea9-37bb08c65484"
+        },
+        "question": "Fährst Du gerne Motorrad oder ATV? Kommst Du auch mit etwas größeren Maschinen klar?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "e025aa16-4b69-42db-9fce-d34792d99a77"
+        },
+        "question": "Gebrochene Knochen schocken Dich nicht - auf die richtige Behandlung kommt es an. Interesse?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "82113a83-d99a-4a63-89eb-9e5f4268917b"
+        },
+        "question": "Radlader-, Baggerfahren - schwere Baumaschinen fahren?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "4813a002-9c0e-4f29-af0c-26be7c197bea"
+        },
+        "question": "Klettern, Bergsteigen, Verletzte retten - auch aus der Kletterwand? Wäre das etwas für Dich?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "2e82c293-1f6a-4b4c-8366-f773d42f1caf"
+        },
+        "question": "Deinen Hund zum Suchhund ausbilden, mit ihm vermisste Menschen orten und retten? Interesse?",
+        "answer": "NO"
+      }
+    ],
+    "mapPin": null,
+    "groups": [
+      {
+        "name": "Ortsverband allgemein",
+        "description": "[b]Was wir tun – wo wir Euch brauchen[/b]\r\n\r\nHelfen, wenn andere in Not geraten, zu jeder Zeit, an vielen verschiedenen Orten und dabei auch noch Spaß haben: Das ist Ehrenamt bei der Johanniter-Unfall-Hilfe.\r\nWir bieten freiwilligen Helfern aller Altersklassen zahlreiche spannende Einsatzgebiete im Sanitätsdienst bei Veranstaltungen, im Katastrophenschutz und der Schnell-Einsatz-Gruppe (SEG), in der Johanniter-Jugend und unseren Schulsanitätsdiensten oder der Erste-Hilfe-Ausbildung. \r\n\r\nDie Johanniter-Unfall-Hilfe e. V. ist seit fast 60 Jahren in den unterschiedlichsten sozialen und karitativen Bereichen aktiv. In der Tradition des evangelischen Johanniterordens ist unser wichtigstes Anliegen immer die Hilfe von Mensch zu Mensch. Mit mehr als 13 000 hauptamtlichen Mitarbeitern, etwa 30 000 ehrenamtlichen Aktiven und über 1,4 Millionen Fördermitgliedern ist die Johanniter-Unfall-Hilfe heute eine der größten Hilfsorganisationen Europas."
+      },
+      {
+        "name": "Jugendgruppe",
+        "description": "Die Johanniter-Jugend: Schon 30 Jahre alt und dynamischer als je zuvor: Wir sind die Johanniter-Jugend, die Jugendorganisation der Johanniter-Unfall-Hilfe e. V. und bestehen aus vielen einzelnen Kinder- und Jugendgruppen. Uns gibt es überall – in ganz Deutschland! Jede Gruppe hat andere Aktivitäten und trotzdem gibt es einige Sachen, die alle Johanniter-Jugendlichen gemeinsam haben:\r\n   - wir wollen anderen Menschen helfen \r\n   - wir haben Spaß daran, gemeinsam etwas zu unternehmen\r\n   - wir unterstützen uns gegenseitig\r\n   - wir legen Wert darauf, gemeinsam zu entscheiden.\r\n\r\nDie Johanniter-Jugend ist ein christlicher Verband – für uns ist Nächstenliebe kein Fremdwort. Deswegen ist uns die Erste-Hilfe-Ausbildung auch so wichtig. Natürlich gibt's bei uns auch Freizeiten: Bundespfingstzeltlager oder Erlebniswochenenden zum Beispiel.\r\nWir bieten Dir Gemeinschaft, bei uns bekommst Du Dinge mit, die Dir Lehrer nicht beibringen: Erste Hilfe, Teamwork und Engagement für andere zum Beispiel.\r\n\r\nDu hast Ideen und Pläne? Nur raus damit. Bei uns kannst Du mitreden, mitentscheiden, mitmachen. Und zusammen mit anderen eine Menge in Bewegung bringen.\r\n   - Du hast eigene Ideen und willst anderen Menschen helfen?\r\n   - Du magst es, mitzureden und bist offen für Neues?\r\n   - Du bist bereit, Entscheidungen zu treffen und Dich aktiv in einer Gruppe einzubringen?\r\n   - Du willst jede Menge Spaß haben?\r\n\r\nDann komm doch einfach mal vorbei, wir sind auch in Deiner Nähe."
+      },
+      {
+        "name": "Sanitätsausbildung",
+        "description": "Wir bilden unsere haupt- und ehrenamtlichen Mitarbeiter selbstverständlich selbst aus und bieten neben der sanitätsdienstlichen Ausbildung auch die Möglichkeit der Ausbildung zum(zur) Rettungssanitäter/in."
+      },
+      {
+        "name": "Sanitätsdienst",
+        "description": "Der Sanitätsdienst leistet der betroffenen Bevölkerung im Schadensgebiet Hilfe, führt ärztliche Sofortmaßnahmen zur Abwendung lebensbedrohlicher Zustände und zur Herstellung der Transportfähigkeit durch.\r\n \r\nEr rettet, sichtet, registriert und versorgt Patienten. Der Sanitätsdienst transportiert Patienten und unterstützt andere Einheiten. Bei größeren Schadenslagen betreibt der Sanitätsdienst zusammen mit dem Betreuungsdienst entsprechende Behandlungsplätze."
+      },
+      {
+        "name": "Schnelleinsatzgruppe (SEG)",
+        "description": "Die Schnell-Einsatz-Gruppe (SEG) unterstützt den Rettungsdienst bei Engpässen, insbesondere dann, wenn viele Menschen von einem Unglück oder einer plötzlichen Erkrankung betroffen sind. Die ehrenamtlichen Helfer des Sanitätsdienstes sorgen für die schnelle und kompetente Versorgung bei Verletzungen und Erkrankungen."
+      }
+    ],
+    "attendanceTimes": [],
+    "volunteers": [],
+    "isPreview": false
+  },
+  {
+    "id": "f768c01d-3675-4ca9-a9fd-70bf5e021f76",
+    "name": "Malteser Hilfsdienst (MHD)",
+    "urlName": "malteser-hilfsdienst-mhd",
+    "organizationType": "MHD",
+    "description": "Der Malteser Hilfsdienst leistet mit seinen Einsatzdiensten \r\n- Sanitätsdienst (Rettungsdienst und Krankentransporte), \r\n- Betreuungsdienst,\r\n- Technische Dienste (Fernmeldetechnik, EDV-/Netzwerktechnik, Sprechfunk, Materialverwaltung und Logistik...)\r\n- Psychosoziale Notfallversorgung\r\nsowohl im Katastrophenschutz, als auch im Rahmen der örtlichen Gefahrenabwehr einen wertvollen Beitrag.",
+    "website": "https://www.malteser.de",
+    "logo": {
+      "value": "bdae6db3-86ac-3d7d-bd81-dbc3886fef92"
+    },
+    "pictures": [
+      {
+        "value": "478f7922-7ab7-3bd0-a766-e4a7be32cc90"
+      }
+    ],
+    "contactPersons": [],
+    "defaultAddress": null,
+    "addresses": [],
+    "questions": [
+      {
+        "questionId": {
+          "value": "8dd070ed-a9de-42af-a017-57a096cf8ec1"
+        },
+        "question": "Möchtest Du Dich in medizinischer Hilfe ausbilden lassen und diese leisten?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "6487dd30-8d1a-4421-b424-2d822cb13e32"
+        },
+        "question": "Du hast keine Angst vor Feuer, nur Respekt. Möchtest Du lernen, wie man es löscht?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "35a19221-8fbf-45fb-9443-65a43aae9013"
+        },
+        "question": "Hast Du Interesse daran, Menschen bei Verkehrsunfällen aus Fahrzeugen zu retten?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "58aca3fe-1783-42ff-81d6-43212d76ce04"
+        },
+        "question": "Kannst Du sehr kurzfristig, ggf. auch innerhalb Deiner Arbeitszeiten, für Einsätze zur Verfügung stehen?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "89342f97-4a0e-457b-994b-5a4851618acc"
+        },
+        "question": "Ist Kochen eine Deiner Leidenschaften?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "e30180fd-bd93-4409-a5f4-8b7eb32948da"
+        },
+        "question": "Möchtest Du aktiv im Naturschutz mitwirken?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "3e3042fa-beca-4d18-bb0c-f6f9a9d8f68f"
+        },
+        "question": "Bist Du handwerklich begabt? Den Umgang mit Kettensäge und Trennschleifer möchtest Du erlernen?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "44d1132f-3407-4387-808d-47368c8d7ffc"
+        },
+        "question": "Hast Du was für Wassersport übrig? Boot fahren, Retten von Menschen aus Gewässern?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "b6788fa7-a360-4b65-8055-193c4c40d1f4"
+        },
+        "question": "Magst Du die Bergwelt? Kannst Du Dir vorstellen, hier Menschen zu retten?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "ae4cdb0c-c35f-42fe-8996-599bfffc8fc2"
+        },
+        "question": "Betreuung von unverletzten Menschen, mit ihnen sprechen, die wichtigsten Dinge des Lebens organisieren und verteilen - Dein Ding?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "c9204024-1399-4b34-b7a4-6919c09cdc41"
+        },
+        "question": "Möchtest Du aktiv als Besatzungsmitglied eines Rettungs- oder Krankentransportwagens mitfahren?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "0d76d16a-c640-40ec-af4e-2111ad36ee46"
+        },
+        "question": "Bist Du handwerklich interessiert und kannst Strom, Heizung, Wasser, etc. in Notunterkünften oder Betreuungs- und Behandlungseinrichtungen installieren?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "18662fa9-a854-4174-9ea9-37bb08c65484"
+        },
+        "question": "Fährst Du gerne Motorrad oder ATV? Kommst Du auch mit etwas größeren Maschinen klar?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "e025aa16-4b69-42db-9fce-d34792d99a77"
+        },
+        "question": "Gebrochene Knochen schocken Dich nicht - auf die richtige Behandlung kommt es an. Interesse?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "82113a83-d99a-4a63-89eb-9e5f4268917b"
+        },
+        "question": "Radlader-, Baggerfahren - schwere Baumaschinen fahren?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "4813a002-9c0e-4f29-af0c-26be7c197bea"
+        },
+        "question": "Klettern, Bergsteigen, Verletzte retten - auch aus der Kletterwand? Wäre das etwas für Dich?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "2e82c293-1f6a-4b4c-8366-f773d42f1caf"
+        },
+        "question": "Deinen Hund zum Suchhund ausbilden, mit ihm vermisste Menschen orten und retten? Interesse?",
+        "answer": "NO"
+      }
+    ],
+    "mapPin": null,
+    "groups": [
+      {
+        "name": "Ortsgruppe allgemein",
+        "description": "Die Ortsgruppe leistet \r\nAusbildung in erster Hilfe\r\nAuslandshilfe\r\nJugendarbeit\r\nKatastrophenschutz\r\nSanitätsdienste bei Großveranstaltungen"
+      },
+      {
+        "name": "Jugendgruppe",
+        "description": "Die Nachwuchsförderung für junge Menschen ab 10 Jahren hat für uns oberste Priorität.\r\nGemeinsam Spaß haben, anderen helfen und sich gegenseitig unterstützen, verantwortlich handeln, in und mit der Gruppe wachsen - Freizeit sinnvoll gestalten und mit Kreativität ausfüllen.\r\nIn der Malteser-Jugend kannst Du viel mitbewegen."
+      },
+      {
+        "name": "Sanitätsdienst",
+        "description": "Bei Einsätzen im Sanitätsdienst wie z. B. bei Vereinsfesten, Betriebsfeiern, Sportveranstaltungen und Faschingsumzügen leisten die ehrenamtlichen Einatzkräfte bei Bedarf professionelle erste Hilfe einschließlich der medizinischen Erstversorgung vor Ort."
+      },
+      {
+        "name": "Sanitätsausbildung",
+        "description": "Wir bilden unsere haupt- und ehrenamtlichen Mitarbeiter selbstverständlich selbst aus und bieten neben der sanitätsdienstlichen Ausbildung auch die Möglichkeit der Ausbildung zum(zur) Rettungssanitäter/in."
+      },
+      {
+        "name": "Schnelleinsatzgruppe (SEG)",
+        "description": "Die ehrenamtlichen Helfer des Malteser Hilfsdienstes sind bei Großschadensfällen über Funkmeldeempfänger rund um die Uhr durch die Rettungsleitstelle erreichbar.\r\nDie Helfer sind so ausgebildet und ausgerüstet, dass sie bei einem außergewöhnlichen Ereignis Verletzte, Erkrankte und andere Betroffene versorgen können."
+      }
+    ],
+    "attendanceTimes": [],
+    "volunteers": [],
+    "isPreview": false
+  },
+  {
+    "id": "b9ff14ad-7d21-4b70-ae4d-8915d0e15d18",
+    "name": "Technisches Hilfswerk (THW)",
+    "urlName": "technisches-hilfswerk-thw",
+    "organizationType": "THW",
+    "description": "Das THW ist die Hilfsorganisation des Bundes und unterstützt die für die Gefahrenabwehr zuständigen Stellen auch mit Spezialgerät bei der Bekämpfung von Schadenslagen aller Art. Ein weiterer gesetzlicher Auftrag ist die Leistung von Hilfe im Zivilschutz. Das Tätigkeitsgebiet des THW beschränkt sich nicht nur auf Deutschland, so wurden bei zahlreichen Einsätzen rund um den Globus humanitäre Hilfe geleistet.",
+    "website": "http://www.thw.de",
+    "logo": {
+      "value": "d917a03f-042a-30c3-9806-f8c7d468acde"
+    },
+    "pictures": [
+      {
+        "value": "16a4f151-dcbc-3d10-84e8-2f03688fe9b2"
+      },
+      {
+        "value": "fd849f94-a490-3a75-9c27-d0e332864bca"
+      },
+      {
+        "value": "9586fb09-a17e-3156-a8c3-16e7c8ae7cea"
+      },
+      {
+        "value": "a0f4d71c-3b4e-30f9-bf53-395a619ac56d"
+      },
+      {
+        "value": "a361a2ab-65b8-37a4-b092-7345c496867e"
+      },
+      {
+        "value": "757ad05e-d9e1-3adb-85c0-da6b0932dd80"
+      }
+    ],
+    "contactPersons": [],
+    "defaultAddress": null,
+    "addresses": [],
+    "questions": [
+      {
+        "questionId": {
+          "value": "8dd070ed-a9de-42af-a017-57a096cf8ec1"
+        },
+        "question": "Möchtest Du Dich in medizinischer Hilfe ausbilden lassen und diese leisten?",
+        "answer": "MAYBE"
+      },
+      {
+        "questionId": {
+          "value": "6487dd30-8d1a-4421-b424-2d822cb13e32"
+        },
+        "question": "Du hast keine Angst vor Feuer, nur Respekt. Möchtest Du lernen, wie man es löscht?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "35a19221-8fbf-45fb-9443-65a43aae9013"
+        },
+        "question": "Hast Du Interesse daran, Menschen bei Verkehrsunfällen aus Fahrzeugen zu retten?",
+        "answer": "MAYBE"
+      },
+      {
+        "questionId": {
+          "value": "58aca3fe-1783-42ff-81d6-43212d76ce04"
+        },
+        "question": "Kannst Du sehr kurzfristig, ggf. auch innerhalb Deiner Arbeitszeiten, für Einsätze zur Verfügung stehen?",
+        "answer": "MAYBE"
+      },
+      {
+        "questionId": {
+          "value": "89342f97-4a0e-457b-994b-5a4851618acc"
+        },
+        "question": "Ist Kochen eine Deiner Leidenschaften?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "e30180fd-bd93-4409-a5f4-8b7eb32948da"
+        },
+        "question": "Möchtest Du aktiv im Naturschutz mitwirken?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "3e3042fa-beca-4d18-bb0c-f6f9a9d8f68f"
+        },
+        "question": "Bist Du handwerklich begabt? Den Umgang mit Kettensäge und Trennschleifer möchtest Du erlernen?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "44d1132f-3407-4387-808d-47368c8d7ffc"
+        },
+        "question": "Hast Du was für Wassersport übrig? Boot fahren, Retten von Menschen aus Gewässern?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "b6788fa7-a360-4b65-8055-193c4c40d1f4"
+        },
+        "question": "Magst Du die Bergwelt? Kannst Du Dir vorstellen, hier Menschen zu retten?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "ae4cdb0c-c35f-42fe-8996-599bfffc8fc2"
+        },
+        "question": "Betreuung von unverletzten Menschen, mit ihnen sprechen, die wichtigsten Dinge des Lebens organisieren und verteilen - Dein Ding?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "c9204024-1399-4b34-b7a4-6919c09cdc41"
+        },
+        "question": "Möchtest Du aktiv als Besatzungsmitglied eines Rettungs- oder Krankentransportwagens mitfahren?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "0d76d16a-c640-40ec-af4e-2111ad36ee46"
+        },
+        "question": "Bist Du handwerklich interessiert und kannst Strom, Heizung, Wasser, etc. in Notunterkünften oder Betreuungs- und Behandlungseinrichtungen installieren?",
+        "answer": "YES"
+      },
+      {
+        "questionId": {
+          "value": "18662fa9-a854-4174-9ea9-37bb08c65484"
+        },
+        "question": "Fährst Du gerne Motorrad oder ATV? Kommst Du auch mit etwas größeren Maschinen klar?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "e025aa16-4b69-42db-9fce-d34792d99a77"
+        },
+        "question": "Gebrochene Knochen schocken Dich nicht - auf die richtige Behandlung kommt es an. Interesse?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "82113a83-d99a-4a63-89eb-9e5f4268917b"
+        },
+        "question": "Radlader-, Baggerfahren - schwere Baumaschinen fahren?",
+        "answer": "NO"
+      },
+      {
+        "questionId": {
+          "value": "4813a002-9c0e-4f29-af0c-26be7c197bea"
+        },
+        "question": "Klettern, Bergsteigen, Verletzte retten - auch aus der Kletterwand? Wäre das etwas für Dich?",
+        "answer": "MAYBE"
+      },
+      {
+        "questionId": {
+          "value": "2e82c293-1f6a-4b4c-8366-f773d42f1caf"
+        },
+        "question": "Deinen Hund zum Suchhund ausbilden, mit ihm vermisste Menschen orten und retten? Interesse?",
+        "answer": "NO"
+      }
+    ],
+    "mapPin": null,
+    "groups": [
+      {
+        "name": "OV-Stab",
+        "description": "Der OV-Stab bildet die Verwaltungseinheit eines Ortsverbands und dient der Führung und Organisation. Alle Mitglieder einschließlich des Leiters eines THW-Ortsverbandes (Ortsbeauftragte), sind rein ehrenamtlich tägig."
+      },
+      {
+        "name": "Jugendgruppe",
+        "description": "Die THW-Jugendgruppe vermittelt Heranwachsenden im Alter von zehn bis 17 Jahren das kleine Einmaleins der Rettungsmethoden mit der Technik, wie sie auch die \"alten Hasen\" einsetzen auf spannende und spielerische Weise. Hier kann man seine Technik-Begeisterung ausleben und bei Wettkämpfen und realitätsnahen Einsatzübungen seine Fähigkeiten unter Beweis stellen:\r\nUnsere Jugendlichen lernen, wie man einen dunklen Weg ausleuchtet, schwere Lasten bewegt und hilflose Menschen rettet. Mit Funkgeräten koordinieren sie die Zusammenarbeit ihrer Teams beim Aufbau einer Seilbahn oder beim Überwinden von Hindernissen."
+      },
+      {
+        "name": "Zugtrupp",
+        "description": "Der Zugtrupp ist für die Koordination von THW-Einsätzen zuständig und richtet in der Regel nahe des Einsatzgeschehens eine Befehlsstelle ein, welche sich mit den Führungsstellen anderer Hilfsorganisationen abstimmt."
+      },
+      {
+        "name": "Bergungsgruppe",
+        "description": "Die Bergungsgruppe ist die universellste Gruppe im Technischen Zug. Das Personal und die Ausstattung sind auf die Bewältigung eines möglichst breiten Aufgabenspektrums ausgerichtet. Zur Ausstattung gehört ein umfangreiches Sortiment an Werkzeugen und Geräten zur Rettung von Menschen, zur Bearbeitung von Holz, Metall und Stein, zur Sicherung von Personen und Einsatzstellen, zum Trennen, Heben und Bewegen von Trümmern oder Bauteilen sowie zum Bau von Hilfskonstruktionen und anderem mehr."
+      }
+    ],
+    "attendanceTimes": [],
+    "volunteers": [],
+    "isPreview": false
+  }
+]

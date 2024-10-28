@@ -1,0 +1,92 @@
+[
+  {
+    "id": "8dd070ed-a9de-42af-a017-57a096cf8ec1",
+    "question": "Möchtest Du Dich in medizinischer Hilfe ausbilden lassen und diese leisten?",
+    "description": "Wenn in Folge z. B. eines Unfalls Menschen ernsthafte Verletzungen erlitten haben, benötigen sie Deine Hilfe. Du bist für das Erkennen von Gefahren für den Betroffenen sowie die Durchführung der richtigen Maßnahmen verantwortlich."
+  },
+  {
+    "id": "6487dd30-8d1a-4421-b424-2d822cb13e32",
+    "question": "Du hast keine Angst vor Feuer, nur Respekt. Möchtest Du lernen, wie man es löscht?",
+    "description": "Zum effizienten Löschen von Bränden ist überlegtes Handeln erforderlich: Erlaubt die aktuelle Situation, einen Gebäudebrand von innen unter schwerem Atemschutz zu bekämpfen oder ist ein Außenangriff zu bevorzugen?"
+  },
+  {
+    "id": "35a19221-8fbf-45fb-9443-65a43aae9013",
+    "question": "Hast Du Interesse daran, Menschen bei Verkehrsunfällen aus Fahrzeugen zu retten?",
+    "description": "Zwei Fahrzeuge sind zusammengestoßen, die Fahrzeugführer eingeklemmt und nicht ansprechbar. Hauptziel der Rettung ist es nun, die verunglückten Personen in kürzestmöglicher Zeit aus ihrem Fahrzeug zu befreien und einer intensivmedizinischen Betreuung in einem Krankenhaus zuzuführen."
+  },
+  {
+    "id": "58aca3fe-1783-42ff-81d6-43212d76ce04",
+    "question": "Kannst Du sehr kurzfristig, ggf. auch innerhalb Deiner Arbeitszeiten, für Einsätze zur Verfügung stehen?",
+    "description": "Brände oder Verkehrsunfälle erfordern schnelles Handeln. Hier solltest Du in der Lage sein, Deinen Arbeitsplatz zu verlassen. Es finden sich aber genügend Möglichkeiten, die entsprechende Vorlaufzeiten erlauben."
+  },
+  {
+    "id": "89342f97-4a0e-457b-994b-5a4851618acc",
+    "question": "Ist Kochen eine Deiner Leidenschaften?",
+    "description": "Könntest Du Dir vorstellen, die Verpflegung von wenigen bis einigen hundert Einsatzkräften zu verantworten, ohne dass dabei der Feldkochherd ruiniert wird?"
+  },
+  {
+    "id": "e30180fd-bd93-4409-a5f4-8b7eb32948da",
+    "question": "Möchtest Du aktiv im Naturschutz mitwirken?",
+    "description": "Neben der Beseitigung von Umweltschäden nach Unfällen (z. B. Ölverschmutzung von Stränden) leisten Einsatzorganisationen auch beispielsweise bei der Renaturierung von Steinbrüchen oder dem Anlegen von Wanderwegen einen wertvollen Beitrag."
+  },
+  {
+    "id": "3e3042fa-beca-4d18-bb0c-f6f9a9d8f68f",
+    "question": "Bist Du handwerklich begabt? Den Umgang mit Kettensäge und Trennschleifer möchtest Du erlernen?",
+    "description": "Technisches Gerät zur Menschenrettung und Gefahrenabwehr zählt bei einigen Einsatzorganisationen zur Basisausstattung."
+  },
+  {
+    "id": "44d1132f-3407-4387-808d-47368c8d7ffc",
+    "question": "Hast Du was für Wassersport übrig? Boot fahren, Retten von Menschen aus Gewässern?",
+    "description": "Möchtest Du Tauchen lernen oder den Bootsführerschein machen? Einige Einsatzorganisationen haben ihren Schwerpunkt im Bereich der Wasserrettung gesetzt und könnten Deine Hilfe gebrauchen."
+  },
+  {
+    "id": "b6788fa7-a360-4b65-8055-193c4c40d1f4",
+    "question": "Magst Du die Bergwelt? Kannst Du Dir vorstellen, hier Menschen zu retten?",
+    "description": "Die Rettung verletzter Personen auf Skipisten oder im Bergland erfordert spezielle Kenntnisse und gute Konditionen."
+  },
+  {
+    "id": "ae4cdb0c-c35f-42fe-8996-599bfffc8fc2",
+    "question": "Betreuung von unverletzten Menschen, mit ihnen sprechen, die wichtigsten Dinge des Lebens organisieren und verteilen - Dein Ding?",
+    "description": "Gehst Du gerne auf Menschen zu und möchtest in Notlage geratene besonders hilfebedürftiger Personen, wie beispielsweise ältere Menschen, behinderte Personen oder Eltern mit Kleinkindern betreuen?"
+  },
+  {
+    "id": "c9204024-1399-4b34-b7a4-6919c09cdc41",
+    "question": "Möchtest Du aktiv als Besatzungsmitglied eines Rettungs- oder Krankentransportwagens mitfahren?",
+    "description": "Von erfahrenen Kollegen kannst Du hier praxisnah Deine Kenntnisse in medizinischer Versorgung vertiefen. Oder möchtest Du nur Rettungswagen fahren?"
+  },
+  {
+    "id": "0d76d16a-c640-40ec-af4e-2111ad36ee46",
+    "question": "Bist Du handwerklich interessiert und kannst Strom, Heizung, Wasser, etc. in Notunterkünften oder Betreuungs- und Behandlungseinrichtungen installieren?",
+    "description": "Im Rahmen des Aufbaus von Notunterkünften im In- und Ausland ist die Bereitstellung von Strom und Wasser erforderlich. Wenn Du bereits handwerkliche Erfahrungen hast oder Dir solche aneignen möchtest, bist Du hier richtig."
+  },
+  {
+    "id": "18662fa9-a854-4174-9ea9-37bb08c65484",
+    "question": "Fährst Du gerne Motorrad oder ATV? Kommst Du auch mit etwas größeren Maschinen klar?",
+    "description": "Ein Unfall auf der Autobahn mit Verletzten. Schnell entwickelt sich ein Stau. Mit dem mit Blaulicht ausgestatteten Motorrad kommst Du schnell zur Unfallstelle und kannst Hilfe leisten. Unterstützung in der Geländerettung, das ATV bringt Material und Personal an die Einsatzstelle"
+  },
+  {
+    "id": "e025aa16-4b69-42db-9fce-d34792d99a77",
+    "question": "Gebrochene Knochen schocken Dich nicht - auf die richtige Behandlung kommt es an. Interesse?",
+    "description": "Du bist medizinisch interessiert und möchtest in diesem Umfeld bei Unfällen oder Großveranstaltungen professionelle Hilfe leisten?"
+  },
+  {
+    "id": "82113a83-d99a-4a63-89eb-9e5f4268917b",
+    "question": "Radlader-, Baggerfahren - schwere Baumaschinen fahren?",
+    "description": "Zur Unterstützung beispielsweise bei der Brandbekämpfung, bei der Deichverteidigung, der Ladungsbergung oder der Rettung verschütteter Personen kommen Baumaschinen zum Einsatz."
+  },
+  {
+    "id": "4813a002-9c0e-4f29-af0c-26be7c197bea",
+    "question": "Klettern, Bergsteigen, Verletzte retten - auch aus der Kletterwand? Wäre das etwas für Dich?",
+    "description": "Die Rettung verunglückter Menschen aus Höhen (Baukran, Sendeanlagen, ...) oder Tiefen (Schächte, Gruben, Höhlen, ...) erfordert gute Kondition und spezielles Wissen, was man Dir gerne vermittelt."
+  },
+  {
+    "id": "2e82c293-1f6a-4b4c-8366-f773d42f1caf",
+    "question": "Deinen Hund zum Suchhund ausbilden, mit ihm vermisste Menschen orten und retten? Interesse?",
+    "description": "Die Rettungshundeausbildung ist sowohl für den Hund als auch für den Rettungshundeführer anspruchsvoll. Dank Dir und Deinem Hund können jedoch viele Menschen in hilfloser Lage vor dem sicheren Tod gerettet werden."
+  },
+  {
+    "id": "949fcfeb-7b08-4a7f-99de-cc3bf48d7e28",
+    "question": "Vermisste Personen suchen und orten, Glutnester finden, Foto- und Videodokumentationen machen oder aber einfach nur die Einsatzleitung bei der Lagebeurteilung unterstützen. All das aus der Luft mit Drohnen. Ist das was für Dich?",
+    "description": "Nach der Ausbildung zum Drohnenpilot oder zum Luftbildauswerter bist Du wichtiger Bestandteil so mancher Einsatzleitung. Du kannst aktiv helfen, vermisste Personen zu finden, Du kannst aktiv helfen Glutnester auszumachen und der Einsatzleitung der Feuerwehr die richtigen Tipps geben. Bei Großschadenslagen sorgst du für die Bilder von oben."
+  }
+]

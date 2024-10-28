@@ -1,9 +1,12 @@
 import {Injectable} from '@angular/core';
-import {Observable} from 'rxjs';
+import {Observable, of} from 'rxjs';
 import {Answer} from '../../shared/answer.model';
 import {GeoPoint} from '../../../_internal/geopoint';
 import {HttpClient} from "@angular/common/http";
 import {PictureId} from "./picture.service";
+import organizations from "./organizations.json";
+import {map} from "rxjs/operators";
+import {environment} from "../../../environments/environment";
 
 @Injectable({
     providedIn: 'root'
@@ -26,7 +29,17 @@ export class OrganizationService {
     }
 
     findGlobalByQuestionAnswers(answers: UserAnswer[]): Observable<Organization[]> {
-        return this.httpClient.post<Organization[]>('api/organization/global/byQuestionAnswers', answers);
+        if (environment.kiosk) {
+            return of<Array<Organization>>(this.getScoredOrganizations(answers))
+                .pipe(map((organizations) => {
+                    return organizations
+                        .sort((a, b) => {
+                            return b.scoreNorm - a.scoreNorm;
+                        });
+                }));
+        } else {
+            return this.httpClient.post<Organization[]>('api/organization/global/byQuestionAnswers', answers);
+        }
     }
 
     findByPosition(position: GeoPoint, distance: number): Observable<Organization[]> {
@@ -59,7 +72,17 @@ export class OrganizationService {
     }
 
     getOrganization(urlName: string): Observable<Organization> {
-        return this.httpClient.get<Organization>('api/organization/' + urlName);
+        if (environment.kiosk) {
+            for (const organization of organizations) {
+                if (organization.urlName == urlName) {
+                    return of(organization);
+                }
+            }
+
+            return of(null);
+        } else {
+            return this.httpClient.get<Organization>('api/organization/' + urlName);
+        }
     }
 
     getTravelDistances(id: string, location: GeoPoint): Observable<Array<TravelDistance>> {
@@ -91,6 +114,48 @@ export class OrganizationService {
             websiteUrl
         });
     }
+
+    private getScoredOrganizations(answers: UserAnswer[]) {
+        const answerMap: { [key: string]: number } = {};
+
+        for (const answer of answers) {
+            answerMap[answer.id] = this.answerToNumber(answer.answer.toString());
+        }
+
+        const scoredOrganizations = [];
+        for (const organization of organizations) {
+            scoredOrganizations.push({
+                ...organization,
+                scoreNorm: this.organizationScore(organization, answerMap)
+            })
+        }
+        return scoredOrganizations;
+    }
+
+    private answerToNumber(answer: string) {
+        switch (answer) {
+            case "NO":
+                return -1;
+            case "MAYBE":
+                return 0;
+            case "YES":
+                return 1;
+        }
+    };
+
+
+    private organizationScore(organization: Omit<Organization, "scoreNorm">, answerMap: { [key: string]: number }) {
+        let score = 0;
+        let numberOfQuestions = 0;
+        for (const question of organization.questions) {
+            const answerAsNumber = this.answerToNumber(question.answer);
+            const userAnswer = answerMap[question.questionId.value];
+            score += Math.abs(answerAsNumber - userAnswer);
+            numberOfQuestions++;
+        }
+        const RANGE_BETWEEN_ANSWERS = 2;
+        return Math.ceil(100 - (score / (numberOfQuestions * RANGE_BETWEEN_ANSWERS) * 100));
+    }
 }
 
 export class Organization {
@@ -100,7 +165,7 @@ export class Organization {
     public organizationType: string;
     public description: string;
     public website: string;
-    public scoreNorm: number;
+    public scoreNorm?: number;
     public pictures: PictureId[] = [];
     public contactPersons: ContactPerson[] = [];
     public defaultAddress: Address = null;
@@ -183,8 +248,8 @@ export class AnsweredQuestion {
     public questionId: QuestionId;
     public question: string;
     public answer: string;
-    public description: string;
-    public position: number;
+    public description?: string;
+    public position?: number;
 }
 
 export interface QuestionId {
