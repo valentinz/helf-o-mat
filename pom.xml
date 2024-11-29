@@ -24,7 +24,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <kotlin.version>1.6.21</kotlin.version>
         <java.version>11</java.version>
-        <jsoup.version>1.9.2</jsoup.version>
+        <jsoup.version>1.15.4</jsoup.version>
         <jna.version>4.1.0</jna.version>
         <google-maps-services.version>2.1.0</google-maps-services.version>
         <imageio.version>3.8.2</imageio.version>
