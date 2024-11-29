@@ -12,7 +12,7 @@
     <artifactId>helfomat-infrastructure-azure</artifactId>
 
     <properties>
-        <azure-storage-blob.version>12.14.2</azure-storage-blob.version>
+        <azure-storage-blob.version>12.21.0</azure-storage-blob.version>
     </properties>
 
     <dependencies>
