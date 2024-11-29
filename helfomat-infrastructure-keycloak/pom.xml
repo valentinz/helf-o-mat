@@ -12,7 +12,7 @@
     <artifactId>helfomat-infrastructure-keycloak</artifactId>
 
     <properties>
-        <keycloak.version>18.0.0</keycloak.version>
+        <keycloak.version>21.0.1</keycloak.version>
     </properties>
 
     <dependencies>
